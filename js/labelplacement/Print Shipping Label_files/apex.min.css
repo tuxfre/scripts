@@ -1,0 +1,1386 @@
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+table {
+	empty-cells: show;
+}
+br {
+	clear: both !important;
+}
+.pbutton {
+	cursor: pointer;
+}
+.pb {
+	cursor: pointer;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+a.noline:link {
+	text-decoration: none;
+}
+a.noline:visited {
+	text-decoration: none;
+}
+a.itemLabel:visited {
+	color: black; font-size: 10pt; text-decoration: none;
+}
+a.itemLabel:link {
+	color: black; font-size: 10pt; text-decoration: none;
+}
+a.itemLabel {
+	color: black; font-size: 10pt; text-decoration: none;
+}
+a.itemLabel:hover {
+	text-decoration: underline;
+}
+a.list {
+	color: black; font-size: 10pt; text-decoration: none;
+}
+a.list:link {
+	color: black; font-size: 10pt; text-decoration: none;
+}
+a.list:visited {
+	color: black; font-size: 10pt; text-decoration: none;
+}
+a.list:hover {
+	text-decoration: underline;
+}
+a.nolink:link {
+	color: black; text-decoration: none;
+}
+a.nolink:visited {
+	color: black; text-decoration: none;
+}
+a.nolink:hover {
+	color: black; text-decoration: none;
+}
+.black80 {
+	color: black; font-size: 80%;
+}
+.black85 {
+	color: black; font-size: 85%;
+}
+.black90 {
+	color: black; font-size: 90%;
+}
+.black95 {
+	color: black; font-size: 95%;
+}
+.black100 {
+	color: black; font-size: 100%;
+}
+.black110 {
+	color: black; font-size: 110%;
+}
+.black120 {
+	color: black; font-size: 120%;
+}
+.black130 {
+	color: black; font-size: 130%;
+}
+.black140 {
+	color: black; font-size: 140%;
+}
+.black150 {
+	color: black; font-size: 150%;
+}
+.white80 {
+	color: white; font-size: 80%;
+}
+.white85 {
+	color: white; font-size: 85%;
+}
+.white90 {
+	color: white; font-size: 90%;
+}
+.white95 {
+	color: white; font-size: 95%;
+}
+.white100 {
+	color: white; font-size: 100%;
+}
+.white110 {
+	color: white; font-size: 110%;
+}
+.white120 {
+	color: white; font-size: 120%;
+}
+.white130 {
+	color: white; font-size: 130%;
+}
+.white140 {
+	color: white; font-size: 140%;
+}
+.white150 {
+	color: white; font-size: 150%;
+}
+.fielddata {
+	color: rgb(0, 0, 0); font-size: 10pt;
+}
+.fielddatabold {
+	color: rgb(0, 0, 0); font-size: 10pt; font-weight: bold;
+}
+.fielddatasmall {
+	color: rgb(0, 0, 0); font-size: 8pt;
+}
+table.tiny td {
+	padding: 2px;
+}
+.tiny {
+	font-size: 7.5pt;
+}
+.code {
+	font-family: "courier new",monospaced; font-size: 10pt;
+}
+.tableheader {
+	background: rgb(204, 204, 153); color: rgb(51, 102, 153); font-size: 10pt; font-weight: bold;
+}
+.tabledata {
+	background: rgb(247, 247, 231); color: rgb(0, 0, 0); font-size: 10pt;
+}
+.tabledata-alt {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 10pt;
+}
+.tabledatabold {
+	background: rgb(247, 247, 231); color: rgb(0, 0, 0); font-size: 10pt; font-weight: bold;
+}
+table.standardLook th {
+	padding: 2px 3px; color: rgb(0, 0, 0); font-size: 10pt; font-weight: bold; vertical-align: bottom; white-space: nowrap;
+}
+table.standardLook td {
+	padding: 2px 3px; color: rgb(0, 0, 0); font-size: 10pt;
+}
+table.default1 th {
+	background: rgb(204, 204, 153); padding: 2px; color: rgb(51, 102, 153); font-size: 10pt; font-weight: bold; vertical-align: bottom; white-space: nowrap;
+}
+table.default1 td {
+	background: rgb(247, 247, 231); padding: 2px; color: rgb(0, 0, 0); font-size: 10pt;
+}
+table.default1 td.alt {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 10pt;
+}
+table.default2 {
+	background: rgb(247, 247, 231); font-size: 10pt; margin-top: 1px; border-top-color: rgb(204, 204, 153); border-left-color: rgb(204, 204, 153); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+table.default2 th {
+	background: rgb(204, 204, 153); padding: 2px; color: rgb(51, 102, 153); font-size: 10pt; font-weight: bold; vertical-align: bottom; border-right-color: rgb(247, 247, 231); border-bottom-color: rgb(247, 247, 231); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+table.default2 td {
+	padding: 2px; font-size: 10pt; border-right-color: rgb(204, 204, 153); border-bottom-color: rgb(204, 204, 153); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+table.default3 th {
+	color: rgb(0, 0, 0); font-size: 8pt; font-weight: bold;
+}
+table.default3 td {
+	color: rgb(0, 0, 0); font-size: 8pt;
+}
+table.default4 {
+	border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); margin: 5px auto 0.5em; background-color: rgb(239, 239, 239);
+}
+table.default4 td {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(204, 204, 204) rgb(204, 204, 204) rgb(255, 255, 255);
+}
+table.default4 th {
+	border-width: 1px; border-style: solid; border-color: rgb(224, 231, 247) rgb(153, 153, 153) rgb(153, 153, 153) rgb(224, 231, 247); color: rgb(255, 255, 255); font-size: 10pt; font-weight: bold; vertical-align: bottom; white-space: nowrap; background-color: rgb(187, 187, 187);
+}
+table.default4 td.even {
+	font-size: 10pt; white-space: nowrap; background-color: rgb(254, 254, 254);
+}
+table.default4 td.odd {
+	font-size: 10pt; white-space: nowrap; background-color: rgb(239, 239, 239);
+}
+table.vertical1 td {
+	padding: 2px 5px; color: rgb(0, 0, 0); font-size: 10pt;
+}
+table.vertical1 td.L {
+	text-align: right; padding-right: 6px;
+}
+table.vertical1 td.R {
+	text-align: left; padding-left: 3px; font-weight: bold;
+}
+table.vertical1 td.vertical1Border {
+	height: 1px; font-size: 0px;
+}
+table.vertical2 {
+	background: rgb(255, 255, 255); border: 1px solid rgb(187, 187, 187); border-image: none; font-size: 10pt; margin-top: 1px; border-collapse: collapse;
+}
+table.vertical2 td.L {
+	background: rgb(153, 153, 153); padding: 2px; border: 1px solid rgb(187, 187, 187); border-image: none; width: 30%; text-align: right; color: rgb(255, 255, 255); font-weight: bold; vertical-align: bottom; white-space: nowrap;
+}
+table.vertical2 td {
+	padding: 2px; border: 1px solid rgb(187, 187, 187); border-image: none; text-align: left;
+}
+img.eLink {
+	border: currentColor; border-image: none; display: none !important;
+}
+a.eLink {
+	border: currentColor; border-image: none; display: none !important;
+}
+img.eLinkOn {
+	border: currentColor; border-image: none; display: inline !important;
+}
+a.eLinkOn {
+	border: currentColor; border-image: none; display: inline !important;
+}
+ul.noIndent {
+	margin: 0px; padding-left: 1.2em;
+}
+ul.noIndent li {
+	padding-left: 0px;
+}
+div.popupHead {
+	padding: 4px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+.hideMe508 {
+	display: none;
+}
+.hideMeButHearMe {
+	top: -999px; position: absolute;
+}
+#apex-dev-toolbar {
+	background: url("../apex/builder/dev-bar.png") repeat-x 0px 0px; margin: 0px auto; padding: 0px; transition:background-color 0.1s; left: 0px; width: 100%; bottom: 0px; display: block; position: fixed; z-index: 9999; box-shadow: 0px 0px 6px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); -webkit-transition: background-color .1s; -moz-transition: background-color .1s;
+}
+#apex-dev-toolbar:hover {
+	background-color: rgb(96, 96, 96);
+}
+#apex-dev-toolbar ul {
+	text-align: center; list-style-type: none; white-space: nowrap;
+}
+#apex-dev-toolbar ul li {
+	list-style: none; display: inline-block;
+}
+a.apex-toolbar {
+	margin: 0px; padding: 0px 8px; color: rgb(240, 240, 240); line-height: 24px; font-size: 11px; font-weight: bold; text-decoration: none; display: block; text-shadow: 0px -1px 0px rgba(0,0,0,0.35);
+}
+a.apex-toolbar:visited {
+	margin: 0px; padding: 0px 8px; color: rgb(240, 240, 240); line-height: 24px; font-size: 11px; font-weight: bold; text-decoration: none; display: block; text-shadow: 0px -1px 0px rgba(0,0,0,0.35);
+}
+a.apex-toolbar:link {
+	margin: 0px; padding: 0px 8px; color: rgb(240, 240, 240); line-height: 24px; font-size: 11px; font-weight: bold; text-decoration: none; display: block; text-shadow: 0px -1px 0px rgba(0,0,0,0.35);
+}
+a.apex-toolbar:hover {
+	background: url("../apex/builder/dev-bar.png") repeat-x 0px 0px rgb(0, 0, 0); color: rgb(255, 255, 255); text-decoration: none;
+}
+a.apex-toolbar:focus {
+	background: url("../apex/builder/dev-bar.png") repeat-x 0px 0px rgb(0, 0, 0); color: rgb(255, 255, 255); text-decoration: none;
+}
+span.errTxt {
+	color: rgb(255, 0, 0); font-size: 7.5pt;
+}
+div.htmldbDebug {
+	padding-left: 3px; font-size: 10px !important;
+}
+div.htmldbHtmlEditor {
+	font-size: 12px;
+}
+div.htmldbHtmlEditor p {
+	font-size: inherit;
+}
+div.htmldbHtmlEditor em {
+	font-size: 12px; font-style: italic;
+}
+div.htmldbHtmlEditor h1 {
+	font-size: 120%;
+}
+div.htmldbHtmlEditor h2 {
+	font-size: 140%;
+}
+div.htmldbHtmlEditor h3 {
+	font-size: 160%;
+}
+div.htmldbHtmlEditor h4 {
+	font-size: 180%;
+}
+div.htmldbHtmlEditor h5 {
+	font-size: 200%;
+}
+div.htmldbHtmlEditor h6 {
+	font-size: 220%;
+}
+div.htmldbHtmlEditor ol {
+	font-size: inherit; list-style-type: decimal;
+}
+div.htmldbHtmlEditor ol li {
+	font-size: inherit; list-style-type: decimal;
+}
+div.htmldbHtmlEditor ul {
+	font-size: inherit; list-style-type: disc;
+}
+div.htmldbHtmlEditor ul li {
+	font-size: inherit; list-style-type: disc;
+}
+img[class].apexDatePickerIcon {
+	vertical-align: middle;
+}
+ol {
+	margin: 0px 0px 0px 20px; padding: 0px;
+}
+ul {
+	margin: 0px 0px 0px 15px; padding: 0px;
+}
+.shuttleSort1 img {
+	margin: 3px; display: block; cursor: pointer;
+}
+.shuttleSort2 img {
+	margin: 3px; display: block; cursor: pointer;
+}
+.shuttleControl img {
+	margin: 3px; display: block; cursor: pointer;
+}
+.shuttleSelect1 select {
+	width: 150px;
+}
+.shuttleSelect2 select {
+	width: 150px;
+}
+body.colorpicker {
+	background: rgb(255, 255, 255); margin: 0px; padding: 1px; font-family: Arial,Helvetica,Geneva,sans-serif;
+}
+#color_pallet_tab {
+	margin: 0px auto;
+}
+#color_pallet_tab .color {
+	margin: 1px 1px 0px 0px; width: 18px; height: 12px; float: left; display: block; cursor: pointer;
+}
+#color_pallet_tab .color br {
+	width: 1px; height: 1px; font-size: 1px; display: block;
+}
+#current_color {
+	margin: 2px auto; height: 20px; clear: both;
+}
+.colorpreview {
+	margin: 0px 0px 0px 5px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 16px; height: 16px;
+}
+.calculator {
+	white-space: nowrap;
+}
+.colorpicker {
+	white-space: nowrap;
+}
+.lov {
+	white-space: nowrap;
+}
+.datepicker {
+	white-space: nowrap;
+}
+.calculator * {
+	vertical-align: middle;
+}
+.colorpicker * {
+	vertical-align: middle;
+}
+.lov * {
+	vertical-align: middle;
+}
+.datepicker * {
+	vertical-align: middle;
+}
+.calculator a {
+	margin: 0px 0px 0px 2px;
+}
+.colorpicker a {
+	margin: 0px 0px 0px 2px;
+}
+.lov a {
+	margin: 0px 0px 0px 2px;
+}
+.datepicker a {
+	margin: 0px 0px 0px 2px;
+}
+fieldset.listmanager table td {
+	padding: 3px;
+}
+.checkbox_group {
+	vertical-align: top;
+}
+.radio_group {
+	vertical-align: top;
+}
+.ajax_shuttle select {
+	width: 300px; height: 150px;
+}
+.hasDatepicker {
+	margin: 1px 2px 0px 0px; vertical-align: top;
+}
+.ui-datepicker-trigger {
+	margin: 0px 0px 0px 2px; vertical-align: text-bottom;
+}
+.worksheet_detail {
+	font-size: 12px;
+}
+.worksheet_detail th {
+	padding: 2px 8px; font-size: 1em;
+}
+.worksheet_detail td {
+	padding: 2px 8px; font-size: 1em;
+}
+.worksheet_detail th {
+	background: none; text-align: right;
+}
+.worksheet .worksheet_detail th.group {
+	background: rgb(239, 239, 239); padding: 6px; text-align: left; border-top-color: rgb(239, 239, 239); border-bottom-color: rgb(239, 239, 239); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.worksheet_detail th.group {
+	background: rgb(239, 239, 239); padding: 6px; text-align: left; border-top-color: rgb(239, 239, 239); border-bottom-color: rgb(239, 239, 239); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.worksheet_detail th.group img {
+	margin-right: 5px; cursor: pointer;
+}
+.worksheet .worksheet_detail th.group {
+	background: none; border: currentColor; border-image: none; color: rgb(0, 0, 0);
+}
+.worksheet .worksheet_detail th {
+	background: none; border: currentColor; border-image: none; color: rgb(0, 0, 0);
+}
+.calculator td.w20 {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(204, 204, 204) rgb(204, 204, 204) rgb(255, 255, 255); padding: 4px; border-image: none; width: 20px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 12px; white-space: nowrap; cursor: pointer;
+}
+.calculator td.w40 {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(204, 204, 204) rgb(204, 204, 204) rgb(255, 255, 255); padding: 4px; border-image: none; width: 40px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 12px; white-space: nowrap; cursor: pointer;
+}
+.calculator td.w120 {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(204, 204, 204) rgb(204, 204, 204) rgb(255, 255, 255); padding: 4px; border-image: none; width: 100%; height: 20px; text-align: left; color: rgb(0, 0, 0); font-size: 12px; white-space: nowrap; cursor: pointer;
+}
+th.current {
+	background: rgb(239, 239, 239); color: rgb(0, 0, 0); border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+#webpage {
+	height: 100%; font-size: 12px !important; empty-cells: show;
+}
+#webpage * {
+	font-size: 12px !important;
+}
+#webpage td.column {
+	padding: 15px 5px; border: 1px solid rgb(239, 239, 239); border-image: none; height: 100%; empty-cells: show;
+}
+table.wb_region {
+	margin: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; width: 300px; font-size: 12px !important;
+}
+table.wb_region th {
+	background: rgb(239, 239, 239); border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#columnbuilder {
+	background: rgb(239, 239, 239); border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+#columnbuilder td {
+	height: 1em; line-height: 1em; font-size: 9px; vertical-align: middle !important; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap;
+}
+#columnbuilder td span {
+	height: 1em; line-height: 1em; vertical-align: middle !important;
+}
+#columnbuilder td input {
+	border: 1px solid rgb(153, 153, 153) !important; border-image: none !important;
+}
+table.TopBarUIFix {
+	margin: 0px 0px 6px; empty-cells: show;
+}
+td.TopBarUIFixL {
+	background: rgb(238, 238, 238); border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+td.TopBarUIFixC {
+	background: rgb(238, 238, 238); border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+td.TopBarUIFixC a {
+	width: 25px; height: 100%; text-decoration: none; display: block; cursor: help;
+}
+td.TopBarUIFixR {
+	border: currentColor; border-image: none; white-space: nowrap;
+}
+td.TopBarUIFixL * {
+	vertical-align: middle;
+}
+td.TopBarUIFixR * {
+	vertical-align: middle;
+}
+td.TopBarUIFixC * {
+	vertical-align: middle;
+}
+.dhtmlSubMenu {
+	background: rgb(246, 246, 246); margin: 0px; padding: 0px; border: 2px solid rgb(183, 183, 183); border-image: none; width: 200px; font-size: 11px; list-style-type: none;
+}
+.dhtmlSubMenu li {
+	margin: 0px; padding: 0px;
+}
+.dhtmlMenuSep {
+	text-align: center;
+}
+img.dhtmlMenuSep {
+	background: rgb(204, 204, 204); margin: auto; border: 1px solid rgb(246, 246, 246); border-image: none; width: 80%; height: 1px; display: block;
+}
+.dhtmlSubMenu img.dhtmlSep {
+	width: 180px; height: 1px;
+}
+.dhtmlSubMenu .htmldbMIMG {
+	width: 5px; height: 9px; vertical-align: middle; float: right;
+}
+.dhtmlSubMenuS .htmldbMIMG {
+	width: 5px; height: 9px; vertical-align: middle; float: right;
+}
+.dhtmlSubMenu .dhtmlSubMenuP {
+	margin: 1px; padding: 3px 8px; text-align: center; color: rgb(128, 128, 128); font-weight: bold; text-decoration: none; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap;
+}
+.dhtmlSubMenu a.dhtmlSubMenuS {
+	margin: 1px; padding: 3px 8px; border: 1px solid rgb(246, 246, 246); border-image: none; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+.dhtmlSubMenu a.dhtmlSubMenuN {
+	margin: 1px; padding: 3px 8px; border: 1px solid rgb(246, 246, 246); border-image: none; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+li.dhtmlSubMenuSelected a.dhtmlSubMenuN {
+	background-color: rgb(204, 204, 204);
+}
+.dhtmlSubMenu a.dhtmlSubMenuS:hover {
+	background: rgb(255, 192, 111); border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0);
+}
+.dhtmlSubMenu a.dhtmlSubMenuN:hover {
+	background: rgb(255, 192, 111); border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0);
+}
+.dhtmlSubMenu a.dhtmlSubMenuS:focus {
+	background: rgb(255, 192, 111); border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0);
+}
+.dhtmlSubMenu a.dhtmlSubMenuN:focus {
+	background: rgb(255, 192, 111); border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0);
+}
+.dhtmlSubMenu a.dhtmlSubMenuS:active {
+	background: rgb(255, 192, 111); border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0);
+}
+.dhtmlSubMenu a.dhtmlSubMenuN:active {
+	background: rgb(255, 192, 111); border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0);
+}
+a.dhtmlSubMenuS {
+	line-height: 1.2em; font-size: 1em; vertical-align: middle; display: block;
+}
+a.dhtmlSubMenuN {
+	line-height: 1.2em; font-size: 1em; vertical-align: middle; display: block;
+}
+a.dhtmlSubMenuS * {
+	vertical-align: middle;
+}
+a.dhtmlSubMenuN * {
+	vertical-align: middle;
+}
+a.dhtmlSubMenuS span {
+	font-size: 1em; float: left; display: block;
+}
+a.dhtmlSubMenuS img {
+	width: 5px; height: 9px; float: right; display: block;
+}
+.dhtmlSubMenu a.dhtmlSubMenuS {
+	color: rgb(0, 0, 0);
+}
+.dhtmlSubMenu a.dhtmlSubMenuN {
+	color: rgb(0, 0, 0);
+}
+div.dhtmlMenuLG {
+	margin: 0px; padding: 0px; vertical-align: middle; list-style-type: none; white-space: nowrap;
+}
+div.dhtmlMenuLG div.dhtmlMenuItem {
+	margin: 0px 8px 0px 0px; text-align: center; float: left;
+}
+div.dhtmlMenuLG a.dhtmlBottom {
+	margin: 0px 5px; font-size: 12px; font-weight: bold; text-decoration: none; display: block;
+}
+div.dhtmlMenuLGButton {
+	margin: 0px; padding: 4px; vertical-align: middle; float: left; list-style-type: none; white-space: nowrap;
+}
+div.dhtmlMenuLGButton div.dhtmlMenuItem {
+	margin: 0px 8px 0px 0px; text-align: center; float: left;
+}
+div.dhtmlMenuLGButton a.dhtmlBottom {
+	margin: 0px 5px; font-size: 12px; font-weight: bold; text-decoration: none; display: block;
+}
+.apex-tabular-form-error {
+	padding: 2px; border: 1px solid rgb(153, 0, 0); border-image: none; background-color: rgb(252, 207, 204);
+}
+.apex-tabular-form-error-highlight {
+	padding: 2px; border: 2px solid rgb(153, 0, 0); border-image: none; background-color: rgb(252, 207, 204);
+}
+.apex-tabular-highlight {
+	padding: 2px; border: 1px solid rgb(204, 153, 0); border-image: none; background-color: rgb(255, 255, 204);
+}
+.apex-tabular-form-error-box {
+	background: rgb(255, 255, 204); margin: 10px; border: 1px solid rgb(255, 204, 102); border-image: none; width: 600px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.apex-tabular-form-error-box .msg {
+	padding: 10px; text-align: center;
+}
+.DefMonthCalendar .DefDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(153, 153, 153); margin: 0px; padding: 4px; height: 50px; text-align: left; background-color: rgb(229, 229, 229); v-align: top;
+}
+.DefMonthCalendar .DefHour {
+	border-width: 0px; font: bold 12px/16px Arial, sans-serif; padding: 0px 5px 35px 10px; width: 30px; text-align: right; white-space: nowrap; font-size-adjust: none; font-stretch: normal; background-color: rgb(229, 229, 229); v-align: center;
+}
+.DefWeekCalendarHolder {
+	width: 600px;
+}
+.DefWeekCalendarHolder .DefMonthTitle {
+	text-align: center; color: rgb(255, 0, 0); font-size: 15px; font-weight: bold;
+}
+.DefWeekCalendar {
+	width: 100%; border-bottom-color: rgb(102, 102, 102); border-left-color: rgb(102, 102, 102); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.DefWeekCalendar .DefDayOfWeek {
+	padding: 3px; color: rgb(0, 0, 0); border-right-color: rgb(102, 102, 102); border-right-width: 1px; border-right-style: solid; background-color: rgb(153, 153, 153);
+}
+.DefWeekCalendar td {
+	width: 14%; height: 30px; border-top-color: rgb(102, 102, 102); border-right-color: rgb(102, 102, 102); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid;
+}
+.DefWeekCalendar .DefDayTitle {
+	border-width: medium medium 0px 0px; border-style: none none solid solid; border-color: currentColor currentColor rgb(102, 102, 102) rgb(102, 102, 102); padding: 0px; border-image: none; text-align: right; font-weight: bold; float: right;
+}
+.DefWeekCalendar .DefDay {
+	vertical-align: top;
+}
+.DefWeekCalendar .DefNonDay {
+	background-color: rgb(238, 238, 238);
+}
+.DefWeekCalendar .DefToday {
+	vertical-align: top; border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: solid; background-color: rgb(221, 221, 221);
+}
+.DefWeekCalendar .DefToday .DefDayTitle {
+	background-color: rgb(255, 255, 255);
+}
+.DefWeekCalendar .DefHour {
+	width: 5%; height: 30px; border-top-color: rgb(102, 102, 102); border-top-width: 1px; border-top-style: solid; background-color: rgb(153, 153, 153);
+}
+.DefWeekCalendar .DefHourTitle {
+	width: 40px; background-color: rgb(153, 153, 153);
+}
+.DefDayCalendarHolder {
+	width: 600px;
+}
+.DefDayCalendarHolder .DefMonthTitle {
+	text-align: center; color: rgb(255, 0, 0); font-size: 15px; font-weight: bold;
+}
+.DefDayCalendar {
+	width: 100%; border-bottom-color: rgb(102, 102, 102); border-left-color: rgb(102, 102, 102); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.DefDayCalendar .DefDayOfWeek {
+	padding: 3px; color: rgb(0, 0, 0); border-right-color: rgb(102, 102, 102); border-right-width: 1px; border-right-style: solid; background-color: rgb(153, 153, 153);
+}
+.DefDayCalendar td {
+	width: 560px; height: 30px; border-top-color: rgb(102, 102, 102); border-right-color: rgb(102, 102, 102); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid;
+}
+.DefDayCalendar .DefDayTitle {
+	border-width: medium medium 0px 0px; border-style: none none solid solid; border-color: currentColor currentColor rgb(102, 102, 102) rgb(102, 102, 102); padding: 0px; border-image: none; text-align: right; font-weight: bold; float: right;
+}
+.DefDayCalendar .DefDay {
+	vertical-align: top;
+}
+.DefDayCalendar .DefToday {
+	vertical-align: top; border-top-color: rgb(153, 153, 153); border-right-color: rgb(153, 153, 153); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid; background-color: rgb(221, 221, 221);
+}
+.DefDayCalendar .DefToday .DefDayTitle {
+	background-color: rgb(255, 255, 255);
+}
+.DefDayCalendar .DefHour {
+	width: 40px; height: 30px; border-top-color: rgb(102, 102, 102); border-right-color: rgb(102, 102, 102); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid; background-color: rgb(153, 153, 153);
+}
+.DefDayCalendar .DefHourTitle {
+	width: 40px; background-color: rgb(153, 153, 153);
+}
+.DefcstCalendarHolder {
+	width: 600px;
+}
+.DefcstCalendarHolder .DefMonthTitle {
+	text-align: center; color: rgb(255, 0, 0); font-size: 15px; font-weight: bold;
+}
+.DefcstCalendar {
+	width: 100%; border-bottom-color: rgb(102, 102, 102); border-left-color: rgb(102, 102, 102); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.DefcstCalendar .DefDayOfWeek {
+	padding: 3px; color: rgb(0, 0, 0); border-right-color: rgb(102, 102, 102); border-right-width: 1px; border-right-style: solid; background-color: rgb(153, 153, 153);
+}
+.DefcstCalendar td {
+	width: 14%; height: 75px; border-top-color: rgb(102, 102, 102); border-right-color: rgb(102, 102, 102); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid;
+}
+.DefcstCalendar .DefDayTitle {
+	border-width: medium medium 0px 0px; border-style: none none solid solid; border-color: currentColor currentColor rgb(102, 102, 102) rgb(102, 102, 102); padding: 0px; border-image: none; text-align: right; font-weight: bold; float: right;
+}
+.DefcstCalendar .DefDay {
+	vertical-align: top;
+}
+.DefcstCalendar .DefNonDayTitle {
+	text-align: right; color: rgb(204, 204, 204);
+}
+.DefcstCalendar .DefNonDay {
+	background-color: rgb(238, 238, 238);
+}
+.DefcstCalendar .DefWeekendDayTitle {
+	border-width: medium medium 2px 2px; border-style: none none solid solid; border-color: currentColor currentColor rgb(102, 102, 102) rgb(102, 102, 102); padding: 2px; border-image: none; text-align: right; color: rgb(204, 204, 204); font-weight: bold; float: right;
+}
+.DefcstCalendar .DefToday {
+	vertical-align: top; border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: solid; background-color: rgb(221, 221, 221);
+}
+.DefcstCalendar .DefToday .DefDayTitle {
+	background-color: rgb(255, 255, 255);
+}
+.DefCstWeekCalendarHolder {
+	width: 600px;
+}
+.DefCstWeekCalendarHolder .DefMonthTitle {
+	text-align: center; color: rgb(255, 0, 0); font-size: 15px; font-weight: bold;
+}
+.DefCstWeekCalendar {
+	width: 100%; border-bottom-color: rgb(102, 102, 102); border-left-color: rgb(102, 102, 102); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.DefCstWeekCalendar .DefDayOfWeek {
+	padding: 3px; color: rgb(0, 0, 0); border-right-color: rgb(102, 102, 102); border-right-width: 1px; border-right-style: solid; background-color: rgb(153, 153, 153);
+}
+.DefCstWeekCalendar td {
+	width: 14%; height: 30px; border-top-color: rgb(102, 102, 102); border-right-color: rgb(102, 102, 102); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid;
+}
+.DefCstWeekCalendar .DefDayTitle {
+	border-width: medium medium 0px 0px; border-style: none none solid solid; border-color: currentColor currentColor rgb(102, 102, 102) rgb(102, 102, 102); padding: 0px; border-image: none; text-align: right; font-weight: bold; float: right;
+}
+.DefCstWeekCalendar .DefDay {
+	vertical-align: top;
+}
+.DefCstWeekCalendar .DefNonDay {
+	background-color: rgb(238, 238, 238);
+}
+.DefCstWeekCalendar .DefToday {
+	vertical-align: top; border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: solid; background-color: rgb(221, 221, 221);
+}
+.DefCstWeekCalendar .DefToday .DefDayTitle {
+	background-color: rgb(255, 255, 255);
+}
+.DefCstWeekCalendar .DefHour {
+	width: 5%; height: 30px; border-top-color: rgb(102, 102, 102); border-top-width: 1px; border-top-style: solid; background-color: rgb(153, 153, 153);
+}
+.DefCstWeekCalendar .DefHourTitle {
+	width: 40px; background-color: rgb(153, 153, 153);
+}
+.DefAgendaCalendar {
+	padding: 0px; border: 0px currentColor; border-image: none; width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+.DefAgendaCalendar .DefMonthTitle {
+	text-align: center; color: rgb(255, 0, 0); font-size: 15px; font-weight: bold;
+}
+.DefAgendaCalendar .DefDayTitle {
+	border-width: 0px; border-style: solid; border-color: rgb(153, 153, 153) rgb(102, 102, 102); font: bold 14px/18px Arial, sans-serif; margin: 0px; text-align: center; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; background-color: rgb(153, 153, 153);
+}
+.DefAgendaCalendar .DefDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(153, 153, 153); margin: 0px; padding: 4px; height: 50px; text-align: left; background-color: rgb(229, 229, 229); v-align: top;
+}
+.DefAgendaCalendar .DefHourTitle {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(153, 153, 153); font: bold 14px/18px Arial, sans-serif; margin: 0px; text-align: center; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; background-color: rgb(153, 153, 153);
+}
+.DefAgendaCalendar .DefHour {
+	border-width: 0px; font: bold 12px/16px Arial, sans-serif; padding: 0px 5px 35px 10px; width: 30px; text-align: right; white-space: nowrap; font-size-adjust: none; font-stretch: normal; background-color: rgb(229, 229, 229); v-align: center;
+}
+.DefAgendaCalendar .DefToDayTitle {
+	border-width: 0px; border-style: solid; border-color: rgb(153, 153, 153) rgb(102, 102, 102); font: bold 14px/18px Arial, sans-serif; margin: 0px; text-align: center; color: rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal; background-color: rgb(221, 221, 221);
+}
+.DefAgendaCalendar .DefToday {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(153, 153, 153); margin: 0px; padding: 4px; height: 50px; text-align: left; background-color: rgb(245, 246, 245); v-align: top;
+}
+.DefAgendaCalendar .DefTodayHourTitle {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(221, 221, 221); font: bold 14px/18px Arial, sans-serif; margin: 0px; text-align: center; color: rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal; background-color: rgb(221, 221, 221);
+}
+.DefAgendaCalendar .DefTodayHour {
+	border-width: 0px; font: bold 12px/16px Arial, sans-serif; padding: 0px 5px 35px 10px; width: 30px; text-align: right; white-space: nowrap; font-size-adjust: none; font-stretch: normal; background-color: rgb(245, 246, 245); v-align: center;
+}
+.calDragDrop {
+	width: 98%;
+}
+.apex_cal_data_grid_src {
+	width: 100%; margin-top: 2px;
+}
+table.apex_finderbar {
+	margin: 5px 0px; empty-cells: show;
+}
+td.apex_finderbar_middle {
+	background: rgb(238, 238, 238); border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+td.apex_finderbar_middle a {
+	height: 100%; text-decoration: none; display: block;
+}
+td.apex_finderbar_left {
+	background: rgb(238, 238, 238); border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+.apex_finderbar_left_middle {
+	background-image: url("../htmldb/builder/builder_find_bg.png");
+}
+.apex_finderbar_left_top {
+	background-image: url("../htmldb/builder/builder_find_bg.png");
+}
+.apex_finderbar_left_top img.spacer {
+	display: block; background-image: url("../htmldb/builder/builder_find_top.png");
+}
+.apex_finderbar_left_bottom {
+	background-image: url("../htmldb/builder/builder_find_bg.png");
+}
+.apex_finderbar_left_bottom img.spacer {
+	display: block; background-image: url("../htmldb/builder/builder_find_bottom.png");
+}
+.apex_finderbar_buttons {
+	padding-left: 10px; white-space: nowrap;
+}
+.apex_close {
+	margin-right: 10px;
+}
+#search_column_drop {
+	color: rgb(0, 0, 0); font-size: 10pt;
+}
+table.worksheet tr td div {
+	max-width: 300px;
+}
+.worksheet_detail {
+	clear: both;
+}
+#apexir_columnsearch {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); width: 200px; overflow: hidden; font-size: 11px; position: absolute; z-index: 1000; -ms-overflow-x: hidden; box-shadow: 2px 2px 4px #888; -webkit-box-shadow: 2px 2px 4px #888; -moz-box-shadow: 2px 2px 4px #888;
+}
+#apexir_col_values_drop {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); width: 200px; overflow: hidden; font-size: 11px; position: absolute; z-index: 1000; -ms-overflow-x: hidden; box-shadow: 2px 2px 4px #888; -webkit-box-shadow: 2px 2px 4px #888; -moz-box-shadow: 2px 2px 4px #888;
+}
+#apexir_rollover {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); width: 200px; overflow: hidden; font-size: 11px; position: absolute; z-index: 1000; -ms-overflow-x: hidden; box-shadow: 2px 2px 4px #888; -webkit-box-shadow: 2px 2px 4px #888; -moz-box-shadow: 2px 2px 4px #888;
+}
+#apexir_col_values_drop {
+	overflow: hidden; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+#apexir_rollover_content {
+	overflow: hidden; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+#apexir_columnsearch a {
+	padding: 2px !important; width: 100% !important; color: rgb(0, 0, 0) !important; overflow: hidden !important; text-decoration: none !important; display: block; white-space: nowrap !important;
+}
+#apexir_col_values_drop a {
+	padding: 2px !important; width: 100% !important; color: rgb(0, 0, 0) !important; overflow: hidden !important; text-decoration: none !important; display: block; white-space: nowrap !important;
+}
+#apexir_rollover_content a {
+	padding: 2px !important; width: 100% !important; color: rgb(0, 0, 0) !important; overflow: hidden !important; text-decoration: none !important; display: block; white-space: nowrap !important;
+}
+#apexir_rollover_content a:hover {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_col_values_drop a:hover {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_rollover_content a:focus {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_col_values_drop a:focus {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_rollover_content a:active {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_col_values_drop a:active {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_SEARCHDROP a:hover {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_SEARCHDROP a:focus {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_SEARCHDROP a:active {
+	background: rgb(143, 177, 228); color: rgb(255, 255, 255); cursor: pointer;
+}
+#apexir_SEARCH_COLUMN_DROP {
+	padding: 9px 4px 4px 2px; font-size: 12px; float: left;
+}
+#apexir_SEARCHDROP {
+	padding: 24px 0px 0px;
+}
+.apexir_SEARCHICON {
+	width: 24px; height: 24px; float: left; display: block; background-image: url("../apex/builder/finder_w_dropdown.png");
+}
+.apexir_SEARCHICON span {
+	display: none;
+}
+.apexir_ICON {
+	width: 24px; height: 24px; float: left; display: block; background-image: url("../apex/builder/finder.png");
+}
+.apexir_ICON span {
+	display: none;
+}
+#apexir_rollover #search {
+	width: 100%;
+}
+#apexir_EXPR_ICON_LINK:focus {
+	outline: rgb(0, 0, 0) dotted 1px;
+}
+#apexir_rollover table img {
+	cursor: pointer;
+}
+.htmldbMinReport tr th div {
+	text-decoration: underline; cursor: pointer;
+}
+#apexir_rollover #apexir_search {
+	margin: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; width: 100%;
+}
+#apexir_rollover table {
+	background: rgb(239, 239, 239); width: 100%; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#apexir_rollover table td {
+	padding: 2px;
+}
+#apexir_rollover table img {
+	cursor: pointer;
+}
+#apexir_rollover table span {
+	background: rgb(238, 238, 238); margin: 2px; padding: 2px; border: 1px solid rgb(239, 239, 239); border-image: none; font-size: 10px; float: left; display: block; cursor: pointer;
+}
+#apexir_rollover table span:hover {
+	background: rgb(221, 221, 221); border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#ir_help {
+	margin: 5px 10px 15px; font-family: Arial,Helvetica,Geneva,sans-serif; font-size: 13px;
+}
+#ir_help p {
+	margin-top: 10px !important;
+}
+#ir_help h3 {
+	border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.irr-pill {
+	height: 20px; float: left; display: block;
+}
+.irr-pill span {
+	display: none;
+}
+.irr-pill-group {
+	margin: 0px 0px 0px 4px; width: 30px; background-image: url("../apex/builder/pill-group.gif");
+}
+.irr-pill-group-active {
+	margin: 0px 0px 0px 4px; width: 30px; background-image: url("../apex/builder/pill-group-active.gif");
+}
+.irr-pill-chart {
+	margin: 0px 0px 0px 4px; width: 30px; background-image: url("../apex/builder/pill-chart.gif");
+}
+.irr-pill-chart-active {
+	margin: 0px 0px 0px 4px; width: 30px; background-image: url("../apex/builder/pill-chart-active.gif");
+}
+.irr-pill-icons-left {
+	width: 25px; background-image: url("../apex/builder/pill-icons-left.gif");
+}
+.irr-pill-icons-left-active {
+	width: 25px; background-image: url("../apex/builder/pill-icons-left-active.gif");
+}
+.irr-pill-report-center {
+	width: 20px; background-image: url("../apex/builder/pill-report-center.gif");
+}
+.irr-pill-report-center-active {
+	width: 20px; background-image: url("../apex/builder/pill-report-center-active.gif");
+}
+.irr-pill-report {
+	margin: 0px 0px 0px 4px; width: 30px; background-image: url("../apex/builder/pill-report.png");
+}
+.irr-pill-report-active {
+	margin: 0px 0px 0px 4px; width: 30px; background-image: url("../apex/builder/pill-report-active.png");
+}
+.irr-pill-report-left {
+	width: 25px; background-image: url("../apex/builder/pill-report-left.gif");
+}
+.irr-pill-report-left-active {
+	width: 25px; background-image: url("../apex/builder/pill-report-left-active.gif");
+}
+.irr-pill-report-right {
+	width: 25px; background-image: url("../apex/builder/pill-report-right.gif");
+}
+.irr-pill-report-right-active {
+	width: 25px; background-image: url("../apex/builder/pill-report-right-active.gif");
+}
+.irr-pill-details-right {
+	width: 25px; background-image: url("../apex/builder/pill-details-right.gif");
+}
+.irr-pill-details-right-active {
+	width: 25px; background-image: url("../apex/builder/pill-details-right-active.gif");
+}
+#loader {
+	left: 45%; top: 0px; position: absolute;
+}
+td.apex_finderbar_middle label {
+	display: block;
+}
+span.ws_link {
+	text-decoration: underline; cursor: pointer;
+}
+.error {
+	border: 1px solid red; border-image: none;
+}
+.error_text {
+	color: red;
+}
+table.accessible-report {
+	margin: 4px; border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+table.accessible-report tfoot tr td {
+	background: rgb(244, 244, 244); border: 0px currentColor; border-image: none;
+}
+table.accessible-report tfoot {
+	background: rgb(244, 244, 244); border: 0px currentColor; border-image: none;
+}
+table.accessible-report tfoot tr {
+	background: rgb(244, 244, 244); border: 0px currentColor; border-image: none;
+}
+table.accessible-report > tbody > tr > th {
+	background: repeat-x rgb(170, 170, 170); padding: 4px 9px; color: rgb(255, 255, 255); letter-spacing: 1px; font-size: 12px; font-weight: bold; vertical-align: bottom; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap;
+}
+table.accessible-report > tbody > tr > td {
+	background: rgb(244, 244, 244); padding: 2px 9px; font-size: 12px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; empty-cells: show;
+}
+table.accessible-report > tbody > tr > th a {
+	color: rgb(255, 255, 255); letter-spacing: 1px; font-size: 12px;
+}
+table.standard-report {
+	border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+table.standard-report tfoot tr td {
+	background: rgb(244, 244, 244); border: 0px currentColor; border-image: none;
+}
+table.standard-report tfoot {
+	background: rgb(244, 244, 244); border: 0px currentColor; border-image: none;
+}
+table.standard-report tfoot tr {
+	background: rgb(244, 244, 244); border: 0px currentColor; border-image: none;
+}
+table.standard-report > tbody > tr > th {
+	background: url("../apex/reg_top_bg.png") repeat-x rgb(135, 156, 189); padding: 4px 9px; color: rgb(255, 255, 255); letter-spacing: 1px; font-size: 12px; font-weight: bold; vertical-align: bottom; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap;
+}
+table.standard-report > tbody > tr > td {
+	background: rgb(244, 244, 244); padding: 2px 9px; font-size: 12px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; empty-cells: show;
+}
+table.standard-report > tbody > tr > th a {
+	color: rgb(255, 255, 255); letter-spacing: 1px; font-size: 12px;
+}
+table.column_mapping {
+	width: 100%; border-top-color: rgb(170, 170, 170); border-top-width: 1px; border-top-style: solid;
+}
+table.column_mapping tfoot tr td {
+	border: 0px currentColor; border-image: none;
+}
+table.column_mapping tfoot {
+	border: 0px currentColor; border-image: none;
+}
+table.column_mapping tfoot tr {
+	border: 0px currentColor; border-image: none;
+}
+table.column_mapping > tbody > tr > th {
+	padding: 4px 9px; color: rgb(0, 0, 0); letter-spacing: 1px; font-size: 12px; font-weight: bold; vertical-align: bottom; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; background-repeat: repeat-x;
+}
+table.column_mapping > tbody > tr > td {
+	padding: 2px 9px; font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; empty-cells: show;
+}
+table.column_mapping > tbody > tr > th a {
+	color: rgb(239, 239, 239); letter-spacing: 1px; font-size: 12px;
+}
+.apexir_WORKSHEET_DATA {
+	border: 0px solid rgb(255, 255, 255); border-image: none; font-size: 8pt; border-collapse: collapse; empty-cells: show;
+}
+.apexir_WORKSHEET_DATA tfoot tr td {
+	background: rgb(239, 239, 239);
+}
+.apexir_WORKSHEET_DATA th {
+	background: url("../ws/report_bg.gif") repeat-x rgb(170, 170, 170); color: rgb(255, 255, 255); letter-spacing: 1px; font-size: 12px; font-weight: bold; border-top-color: rgb(170, 170, 170); border-bottom-color: rgb(170, 170, 170); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+.apexir_WORKSHEET_DATA th div {
+	margin: 3px 9px; color: rgb(255, 255, 255); letter-spacing: 1px; font-size: 12px; text-decoration: underline; cursor: pointer;
+}
+.apexir_WORKSHEET_DATA th.current {
+	background: url("../ws/report_bg_current.gif") rgb(170, 170, 170);
+}
+.apexir_WORKSHEET_DATA th.current div {
+	color: rgb(0, 0, 0);
+}
+.apexir_WORKSHEET_DATA td {
+	background: rgb(239, 239, 239); padding: 3px 9px; overflow: hidden; font-size: 12px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; empty-cells: show !important;
+}
+.apexir_WORKSHEET_DATA tr.odd td {
+	background-color: rgb(240, 240, 240);
+}
+.apexir_WORKSHEET_DATA tr.even td {
+	background-color: rgb(240, 240, 240);
+}
+.apexir_WORKSHEET_DATA tr.odd:hover td {
+	background-color: rgb(204, 221, 255) !important;
+}
+.apexir_WORKSHEET_DATA tr.even:hover td {
+	background-color: rgb(204, 221, 255) !important;
+}
+.apexir_WORKSHEET_ICONS td {
+	background: none; border: currentColor; border-image: none; width: 160px; height: 100px; vertical-align: top; max-width: 160px;
+}
+.apexir_WORKSHEET_ICONS td a {
+	text-align: center; color: rgb(128, 128, 128); font-size: 12px; font-weight: normal; text-decoration: none; display: block;
+}
+.apexir_WORKSHEET_ICONS td a * {
+	vertical-align: top;
+}
+.apexir_WORKSHEET_CUSTOM td {
+	background: none; border: currentColor; border-image: none;
+}
+#apexir_WORKSHEET .apexir_REPEAT_HEADING {
+	background: rgb(255, 255, 255); padding: 10px 0px 5px; border: 0px solid rgb(255, 255, 255); border-image: none; text-align: left; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold;
+}
+#apexir_WORKSHEET .apexir_AGGREGATE_VALUE {
+	background: rgb(238, 238, 238); text-align: right; font-weight: bold;
+}
+#apexir_REPORT_TABS {
+	margin: 10px 0px 5px; padding: 0px 0px 1px; clear: both; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#apexir_REPORT_TABS span {
+	background: rgb(239, 239, 239); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(153, 153, 153) rgb(153, 153, 153) currentColor; margin: 0px 3px 2px; padding: 2px 5px; border-image: none; font-size: 12px; font-weight: bold; display: inline-block; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+#apexir_REPORT_TABS span.current {
+	background: rgb(255, 102, 0); color: rgb(255, 255, 255); margin-bottom: 0px;
+}
+#apexir_REPORT_TABS span a {
+	display: none;
+}
+#apexir_CONTROL_PANEL {
+	clear: both;
+}
+#apexir_CONTROL_PANEL_CONTROL {
+	width: 20px; height: 100%; cursor: pointer;
+}
+#apexir_CONTROL_PANEL_SUMMARY {
+	font-size: 12px; vertical-align: middle;
+}
+#apexir_CONTROL_PANEL_COMPLETE td {
+	font-size: 12px; vertical-align: middle;
+}
+#apexir_CONTROL_PANEL_COMPLETE a {
+	font-size: 12px; vertical-align: middle;
+}
+#apexir_CONTROL_PANEL_DROP {
+	background: rgb(239, 239, 239); padding: 5px; border: 1px solid rgb(153, 153, 153); border-image: none; clear: both; margin-bottom: 5px; float: left; z-index: 1; box-shadow: 1px 1px 1px #aaa; -moz-border-radius: 6px; -webkit-border-radius: 6px; -webkit-box-shadow: 1px 1px 1px #aaa; -moz-box-shadow: 1px 1px 1px #aaa;
+}
+#apexir_CONTROL_PANEL_DROP label {
+	font-size: 12px !important;
+}
+#apexir_CONTROL_PANEL_DROP td {
+	white-space: nowrap !important;
+}
+#apexir_DATA_PANEL {
+	clear: both;
+}
+#apexir_LOADER {
+	left: 48%; top: 4px; position: absolute;
+}
+.apexir_TOOLBAR_OPEN {
+	background: url("../apex/builder/bg-topbar-40px-l.gif") repeat-y 0px 0px; height: 40px; overflow: visible; float: left; display: inline;
+}
+.apexir_TOOLBAR_CLOSE {
+	background: url("../apex/builder/bg-topbar-40px-r.gif") repeat-y 100% 0px; padding: 4px 8px 8px 0px; color: rgb(0, 0, 0); overflow: visible; float: left;
+}
+#apexir_TOOLBAR {
+	padding: 0px 0px 4px; float: left;
+}
+.apexir_COLUMN_SELECTOR {
+	padding: 1px 4px 0px 8px; float: left;
+}
+.apexir_SEARCH {
+	padding: 4px 4px 0px 2px; float: left;
+}
+.apexir_SEARCH input {
+	margin: 0px;
+}
+.apexir_SEARCH button {
+	margin: 1px 0px 0px 4px;
+}
+.apexir_SAVED_REPORTS {
+	padding: 5px 4px 0px 2px; float: left;
+}
+.apexir_SAVED_REPORTS select {
+	margin: 0px 0px 0px 2px;
+}
+.apexir_ROW_SELECT_LIST {
+	padding: 7px 4px 9px 2px; float: left;
+}
+.apexir_ROW_SELECT_LIST select {
+	margin: 0px 0px 0px 2px;
+}
+#apexir_SEARCH_BAR_OPTIONS {
+	margin: 1px; padding: 4px 4px 0px 2px; float: left;
+}
+.apexir_ACTION_MENU {
+	padding: 4px 4px 0px; float: left;
+}
+.apexir_WEBSHEET_MENU {
+	padding: 4px 4px 0px 2px; float: left;
+}
+.apexir_WEBSHEET_MENU button {
+	margin: 1px;
+}
+.apexir_BUTTONS {
+	padding: 9px 4px 2px 10px; float: left;
+}
+.apexir_BUTTONS button {
+	margin: 0px;
+}
+#apexir_TOOLBAR div.dhtmlMenuLGButton {
+	padding: 0px;
+}
+.apexir_ACTION_MENU button {
+	margin: 1px;
+}
+#apex_cal_DATA_PANEL_DROP {
+	background: rgb(239, 239, 239); padding: 5px; border: 1px solid rgb(153, 153, 153); border-image: none; clear: both; margin-bottom: 5px; float: left; z-index: 1; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+}
+#apex_cal_DATA_PANEL_DROP label {
+	font-size: 12px !important;
+}
+#apex_cal_DATA_PANEL_DROP td {
+	white-space: nowrap !important;
+}
+table tr td.apex_report_break {
+	padding: 5px; border-right-color: currentColor !important; border-left-color: currentColor !important; border-right-width: medium !important; border-left-width: medium !important; border-right-style: none !important; border-left-style: none !important;
+}
+.apex_size_bar {
+	background: rgb(238, 238, 238); border-width: 0px 0px 1px 1px; border-style: solid; border-color: rgb(221, 221, 221); height: 9px; overflow: hidden; cursor: s-resize;
+}
+.apex_size_grip {
+	background: url("../widgets/size_grip.png") no-repeat right top rgb(238, 238, 238); border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(221, 221, 221); width: 9px; height: 9px; overflow: hidden; float: right; cursor: se-resize;
+}
+.apex_wait_popup {
+	padding: 5px; border: 2px solid rgb(102, 102, 102); border-image: none; left: 40%; top: 30%; width: 300px; text-align: center; font-size: 16px; display: block; position: absolute; z-index: 1002; background-color: rgb(255, 255, 255);
+}
+.apex_wait_overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: block; position: fixed; z-index: 1001; opacity: 0.5; background-color: black; -moz-opacity: .5;
+}
+.ac_results {
+	padding: 0px; border: 1px solid black; border-image: none; overflow: hidden; z-index: 99999; background-color: white;
+}
+.ac_results ul {
+	list-style: none; margin: 0px; padding: 0px; width: 100%;
+}
+.ac_results li {
+	font: 400 12px/16px Segoe UI; margin: 0px; padding: 2px 5px; overflow: hidden; font: menu; display: block; cursor: default;
+}
+.ac_results li {
+	font: 400 12px/16px Segoe UI; margin: 0px; padding: 2px 5px; overflow: hidden; font: menu; display: block; cursor: default;
+}
+.ac_loading {
+	background: url("../apex/builder/loading16x16.gif") no-repeat right white;
+}
+.ac_odd {
+	background-color: rgb(238, 238, 238);
+}
+.ac_over {
+	color: white; background-color: rgb(10, 36, 106);
+}
+.apex-loading-indicator {
+	padding: 1px 8px; background-image: url("../apex/builder/loading16x16.gif");
+}
+.apex_disabled_multi {
+	color: rgb(204, 204, 204);
+}
+.topbar {
+	padding: 0px 0px 4px; overflow: hidden; clear: right; float: left;
+}
+.topbar .topbar-items {
+	float: left;
+}
+.topbar .topbar-buttons {
+	padding: 16px 0px; float: left;
+}
+.topbar .topbar-top {
+	background: url("../apex/builder/bg-topbox.gif") no-repeat 0px 0px; width: 100%; float: left;
+}
+.topbar .topbar-top .topbar-top-r {
+	background: url("../apex/builder/bg-topbox-r.gif") no-repeat 100% 0px; height: 3px; color: rgb(255, 255, 255); font-size: 1px; font-weight: bold;
+}
+.topbar .topbar-body {
+	background: url("../apex/builder/bg-region-frame-l.gif") repeat-y 0px 0px; width: 100%; float: left;
+}
+.topbar .topbar-body .topbar-body-r {
+	background: url("../apex/builder/bg-region-frame-r.gif") repeat-y 100% 0px; padding: 0px 12px 0px 2px; color: rgb(0, 0, 0); font-size: 14px;
+}
+.topbar .topbar-body .topbar-content {
+	background: url("../apex/builder/bg-announcements.gif") repeat-x 0px 100% rgb(248, 248, 248); padding: 6px; height: 1%; overflow: hidden; clear: right;
+}
+.topbar .topbar-body .topbar-content .formlayout .body {
+	padding: 2px 0px 0px;
+}
+.topbar .topbar-bottom {
+	background: url("../apex/builder/bg-region-bottom-l.gif") no-repeat 0px 0px; width: 100%; height: 10px; overflow: hidden; float: left;
+}
+.topbar .topbar-bottom .topbar-bottom-r {
+	background: url("../apex/builder/bg-region-bottom-r.gif") no-repeat 100% 0px; height: 5px; color: rgb(0, 0, 0); overflow: hidden;
+}
+div.two-col-report-portlet div.report-row {
+	clear: both; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.two-col-report-portlet div.report-row div.report-col-hdr {
+	font: 12px/20px Arial, sans-serif; float: left; font-size-adjust: none; font-stretch: normal;
+}
+div.two-col-report-portlet div.report-row div.report-col-val {
+	font: bold 12px/20px Arial, sans-serif; float: right; font-size-adjust: none; font-stretch: normal;
+}
+fieldset.checkbox_group {
+	vertical-align: baseline; display: inline;
+}
+fieldset.datepicker {
+	vertical-align: middle; display: inline;
+}
+fieldset.lov {
+	vertical-align: middle; display: inline;
+}
+fieldset.radio_group {
+	vertical-align: middle; display: inline;
+}
+fieldset.textarea {
+	vertical-align: middle; display: inline;
+}
+fieldset.shuttle {
+	vertical-align: middle; display: inline;
+}
+fieldset.colorpicker {
+	vertical-align: middle; display: inline;
+}
+fieldset.html_editor {
+	vertical-align: middle; display: inline;
+}
+fieldset.listmanager {
+	vertical-align: middle; display: inline;
+}
+.fixed-header-report table {
+	border: 1px solid rgb(204, 204, 204); border-image: none; empty-cells: show;
+}
+.fixed-header-report table tbody {
+	width: 100%; height: 200px; display: block; -ms-overflow-x: hidden; -ms-overflow-y: scroll;
+}
+.fixed-header-report table thead tr {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: block; background-image: url("../images/report_bg.gif"); background-repeat: repeat-x; background-color: rgb(204, 204, 204);
+}
+.fixed-header-report table th.header {
+	padding: 4px 10px; color: rgb(255, 255, 255); font-size: 12px;
+}
+.fixed-header-report table th.header a {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: underline;
+}
+.fixed-header-report table td.data {
+	padding: 4px 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(240, 240, 240);
+}
+.fixed-header-report table td.data-alt {
+	padding: 4px 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.fixed-header-report table p {
+	margin: 0px; overflow: hidden;
+}
+button[disabled] {
+	cursor: default; opacity: 0.5; pointer-events: none;
+}
+.apex_disabled {
+	cursor: default; opacity: 0.5; pointer-events: none;
+}
+.visuallyhidden {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; width: 1px; height: 1px; overflow: hidden; position: absolute; clip: rect(0px, 0px, 0px, 0px);
+}
+.visuallyhidden.focusable:active {
+	margin: 0px; width: auto; height: auto; overflow: visible; position: static; clip: auto;
+}
+.visuallyhidden.focusable:focus {
+	margin: 0px; width: auto; height: auto; overflow: visible; position: static; clip: auto;
+}
+.apex-grid-nbsp {
+	height: 1px; line-height: 1px; overflow: hidden; font-size: 1px;
+}

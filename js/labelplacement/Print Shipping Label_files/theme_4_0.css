@@ -1,0 +1,1266 @@
+* {
+	font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px;
+}
+body {
+	margin: 0px; padding: 0px; font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);
+}
+body * {
+	font-size: 12px;
+}
+th {
+	padding: 0px;
+}
+td {
+	padding: 0px;
+}
+img {
+	margin: 0px; border: 0px currentColor; border-image: none;
+}
+hr {
+	height: 1px; color: rgb(187, 187, 187);
+}
+br {
+	clear: both;
+}
+p {
+	font-size: 12px;
+}
+a:link {
+	color: rgb(127, 127, 127); text-decoration: none;
+}
+a:visited {
+	color: rgb(127, 127, 127); text-decoration: none;
+}
+a:active {
+	color: rgb(255, 102, 0); text-decoration: underline;
+}
+a:hover {
+	color: rgb(255, 102, 0); text-decoration: underline;
+}
+ul {
+	
+}
+ol {
+	
+}
+fieldset.checkbox_group {
+	display: block;
+}
+fieldset.datepicker {
+	display: block;
+}
+fieldset.lov {
+	display: block;
+}
+fieldset.radio_group {
+	display: block;
+}
+fieldset.textarea {
+	display: block;
+}
+fieldset.shuttle {
+	display: block;
+}
+fieldset.colorpicker {
+	display: block;
+}
+fieldset.html_editor {
+	display: block;
+}
+fieldset.listmanager {
+	display: block;
+}
+div.t13BodyMargin {
+	padding: 10px 15px;
+}
+#t13NavBar {
+	padding: 2px; float: right; white-space: nowrap;
+}
+a.t13NavLink {
+	margin: 0px 3px; height: 1%; text-align: center; font-size: 10px; white-space: nowrap;
+}
+#t13Logo2 {
+	padding: 2px; float: left;
+}
+div.t13Sep {
+	height: 5px; clear: both; font-size: 5px;
+}
+.t13NewBottom {
+	padding: 2px 0px; font-size: 10px; border-top-color: black; border-bottom-color: black; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(230, 231, 231);
+}
+.t13NewBottom1 {
+	padding: 0px 0px 0px 10px; font-size: 10px; float: left;
+}
+.t13NewBottom2 {
+	padding: 0px 10px 0px 0px; font-size: 10px; float: right;
+}
+.t13FlowV {
+	padding: 0px 10px 0px 0px; text-align: right; font-size: 10px;
+}
+#t13MessageHolder {
+	text-align: center;
+}
+.t13SuccessMessage {
+	background: no-repeat rgb(221, 221, 221); border-width: 1px medium; border-style: solid none; border-color: rgb(170, 170, 170) currentColor; margin: 5px auto; padding: 5px; border-image: none; width: 600px; color: rgb(51, 51, 51); font-size: 12px;
+}
+.t13Notification {
+	border-width: 1px medium; border-style: solid none; border-color: rgb(170, 170, 170) currentColor; margin: 5px auto; padding: 5px; border-image: none; width: 600px; text-align: left; color: rgb(51, 51, 51); font-size: 12px; vertical-align: top; background-color: rgb(221, 221, 221);
+}
+table.t13PageTabs td.OnC {
+	font-weight: bold; text-decoration: none; white-space: nowrap; background-image: url("tabOnM.png"); background-repeat: repeat-x; background-color: rgb(123, 156, 189);
+}
+table.t13PageTabs td.OnC span {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none; white-space: nowrap;
+}
+table.t13PageTabs td.OnC a:link {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none; white-space: nowrap;
+}
+table.t13PageTabs td.OnC a:visited {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none; white-space: nowrap;
+}
+table.t13PageTabs td.OffC {
+	font-weight: bold; text-decoration: none; white-space: nowrap; background-image: url("tabOffM.png"); background-repeat: repeat-x; background-color: rgb(204, 204, 204);
+}
+table.t13PageTabs td.OffC a:link {
+	font-size: 12px; font-weight: bold; text-decoration: none; white-space: nowrap;
+}
+table.t13PageTabs td.OffC a:visited {
+	font-size: 12px; font-weight: bold; text-decoration: none; white-space: nowrap;
+}
+span.OnC {
+	padding: 5px; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; text-decoration: none; white-space: nowrap;
+}
+span.OffC a:link {
+	padding: 5px; color: rgb(255, 255, 255); font-size: 12px; font-weight: normal; text-decoration: none; white-space: nowrap;
+}
+span.OffC a:visited {
+	padding: 5px; color: rgb(255, 255, 255); font-size: 12px; font-weight: normal; text-decoration: none; white-space: nowrap;
+}
+span.OffC a:hover {
+	color: rgb(255, 102, 0);
+}
+td.t13Layout {
+	padding: 0px 10px;
+}
+.t13BreadcrumbRegion {
+	width: 100%; height: 16px; line-height: 16px; font-size: 12px; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(230, 231, 231);
+}
+.t13Breadcrumbs {
+	padding: 0px 0px 1px 3px; color: rgb(51, 51, 51); font-weight: bold; vertical-align: middle; float: left;
+}
+a.t13Breadcrumb:link {
+	color: rgb(153, 153, 153); line-height: 16px; font-weight: bold; text-decoration: none; vertical-align: middle; float: left; white-space: nowrap;
+}
+a.t13Breadcrumb:visited {
+	color: rgb(153, 153, 153); line-height: 16px; font-weight: bold; text-decoration: none; vertical-align: middle; float: left; white-space: nowrap;
+}
+a.t13Breadcrumb:hover {
+	color: rgb(255, 102, 0); line-height: 16px; vertical-align: middle; white-space: nowrap;
+}
+span.t13Breadcrumb {
+	color: rgb(255, 102, 0); line-height: 16px; vertical-align: middle; float: left; white-space: nowrap;
+}
+span.t13BreadcrumbSep {
+	padding: 0px 3px; line-height: 16px; vertical-align: middle; float: left; white-space: nowrap;
+}
+span.brdCrmSep {
+	padding: 0px 3px; line-height: 16px; vertical-align: middle; float: left; white-space: nowrap;
+}
+#t13BreadcrumbTop {
+	background-position: 0px -2px; height: 8px; clear: both; font-size: 2px; border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, 153); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-image: url("tabOnM.png"); background-repeat: repeat-x; background-color: rgb(70, 116, 162);
+}
+* html #t13BreadcrumbTop {
+	height: 8px; clear: both; font-size: 2px; border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, 153); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-image: none; background-color: rgb(255, 255, 255);
+}
+#t13BreadcrumbTop2 {
+	background-position: 0px -2px; padding: 2px; clear: both; border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, 153); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-image: url("tabOnM.png"); background-repeat: repeat-x; background-color: rgb(70, 116, 162);
+}
+* html #t13BreadcrumbTop2 {
+	height: 8px; clear: both; font-size: 2px; border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, 153); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-image: none; background-color: rgb(255, 255, 255);
+}
+#t13Customize {
+	margin-right: 5px; float: right;
+}
+#t13User {
+	margin: 0px 0px 0px 10px; font-size: 10px; float: left;
+}
+#t13Workspace {
+	margin: 0px 0px 0px 10px; font-size: 10px;
+}
+#t13PageTabs {
+	float: right;
+}
+.pseudoButtonInactive {
+	cursor: pointer;
+}
+.pseudoButtonActive {
+	cursor: pointer;
+}
+.t13ColumnSep {
+	width: 10px;
+}
+.t13Button {
+	margin: 3px;
+}
+a.t13ButtonAlternative1 {
+	margin: 3px; padding: 1px 2px; border: 1px solid rgb(136, 136, 136); border-image: none; font-weight: bold; text-decoration: none; white-space: nowrap; background-color: rgb(255, 255, 255);
+}
+a.t13ButtonAlternative1:hover {
+	background-color: rgb(204, 204, 204);
+}
+a.t13ButtonAlternative2 {
+	margin: 3px; padding: 1px 2px; border: 1px solid rgb(136, 136, 136); border-image: none; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; white-space: nowrap; background-color: rgb(123, 156, 189);
+}
+a.t13ButtonAlternative2:hover {
+	color: rgb(123, 156, 189); background-color: rgb(255, 255, 255);
+}
+a.t13ButtonAlternative3 {
+	margin: 3px; padding: 1px 2px; border: 1px solid rgb(136, 136, 136); border-image: none; font-weight: bold; text-decoration: none; white-space: nowrap; background-color: rgb(204, 204, 204);
+}
+a.t13ButtonAlternative3:hover {
+	background-color: rgb(255, 255, 255);
+}
+.t13NoLabel {
+	white-space: nowrap;
+}
+a.t13OptionalLabelwithHelp {
+	color: rgb(0, 0, 0); white-space: nowrap;
+}
+.t13OptionalLabel {
+	color: rgb(0, 0, 0); white-space: nowrap;
+}
+a.t13OptionalLabelwithHelp {
+	cursor: help;
+}
+a.t13RequiredLabelwithHelp {
+	color: rgb(0, 0, 0); white-space: nowrap;
+}
+.t13RequiredLabel {
+	color: rgb(0, 0, 0); white-space: nowrap;
+}
+a.t13RequiredLabelwithHelp {
+	cursor: help;
+}
+.t13InlineError {
+	color: red; text-decoration: underline;
+}
+.t13InlineError span {
+	color: red; text-decoration: underline;
+}
+.t13InlineError a {
+	color: red; text-decoration: underline;
+}
+.t13InlineError a:hover {
+	color: red; text-decoration: underline;
+}
+.t13InlineError a:visited {
+	color: red; text-decoration: underline;
+}
+.t13ButtonList a {
+	margin: 3px; padding: 1px 3px; border: 1px solid rgb(136, 136, 136); border-image: none; font-weight: bold; text-decoration: none; vertical-align: middle; white-space: nowrap; background-color: rgb(238, 238, 238);
+}
+.t13ButtonList a.t13Current {
+	color: rgb(255, 255, 255); background-color: rgb(123, 156, 189);
+}
+.t13ButtonList a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(123, 156, 189);
+}
+.t13HorizontalImageswithLabelList {
+	
+}
+.t13HorizontalImageswithLabelList td {
+	padding: 5px; text-align: center;
+}
+.t13HorizontalImageswithLabelList .t13Current {
+	
+}
+.t13HorizontalLinksList {
+	
+}
+.t13HorizontalLinksList a {
+	margin: 0px 8px; text-decoration: underline;
+}
+.t13HorizontalLinksList a.t13Current {
+	font-weight: bold; text-decoration: none;
+}
+table.t13TabbedNavigationList {
+	margin: 0px 0px 15px; border-top-color: rgb(170, 170, 170); border-top-width: 1px; border-top-style: solid;
+}
+table.t13TabbedNavigationList td {
+	padding: 2px 8px; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; background-color: rgb(246, 246, 246);
+}
+table.t13TabbedNavigationList td.t13LeftTabList {
+	width: 30px; font-size: 18px; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(246, 246, 246);
+}
+table.t13TabbedNavigationList td.t13CurrentListTab {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; background-color: rgb(255, 255, 255);
+}
+table.t13TabbedNavigationList a.t13CurrentListTab {
+	text-decoration: none;
+}
+table.t13TabbedNavigationList a {
+	font-size: 14px;
+}
+table.t13TabbedNavigationList td.t13SepL {
+	padding: 0px; border: currentColor; border-image: none; background-image: url("tab_list_left_cap.gif");
+}
+table.t13TabbedNavigationList td.t13SepR {
+	padding: 0px; border: currentColor; border-image: none; background-image: url("tab_list_right_cap.gif");
+}
+table.t13TabbedNavigationList td.t13EndCap {
+	font-size: 18px; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(246, 246, 246);
+}
+.t13VerticalImagesList {
+	
+}
+.t13VerticalImagesList img {
+	margin: auto; display: block;
+}
+.t13VerticalImagesList td {
+	padding: 2px; text-align: center;
+}
+.t13VerticalImagesList .t13Current {
+	border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-right-width: 2px; border-left-width: 2px; border-right-style: solid; border-left-style: solid;
+}
+.t13VerticalOrderedList {
+	
+}
+.t13VerticalOrderedList .t13Current a {
+	text-decoration: none;
+}
+.t13VerticalUnorderedListwithBullets {
+	
+}
+.t13VerticalUnorderedListwithBullets li {
+	
+}
+.t13VerticalUnorderedListwithBullets .t13Current a {
+	text-decoration: none;
+}
+.t13VerticalUnorderedLinkswithoutBullets {
+	list-style: none;
+}
+.t13VerticalUnorderedLinkswithoutBullets .t13Current a {
+	text-decoration: none;
+}
+.t13VerticalSidebarList {
+	
+}
+.t13VerticalSidebarList a {
+	display: block; white-space: nowrap;
+}
+.t13VerticalSidebarList a.t13Current {
+	color: rgb(255, 102, 0); text-decoration: underline; display: block;
+}
+.t13WizCurrent {
+	padding: 3px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 140px; text-align: center; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; background-color: rgb(187, 187, 187);
+}
+.t13WizNon {
+	padding: 3px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 140px; text-align: center; color: rgb(0, 0, 0); font-size: 12px; background-color: rgb(238, 238, 238);
+}
+.t13WizArrow {
+	padding: 3px; width: 140px; text-align: center; color: rgb(0, 0, 0); font-size: 12px;
+}
+.t13BreadcrumbMenu {
+	
+}
+.t13BreadcrumbMenu .t13Current {
+	
+}
+.t13HierarchicalMenu {
+	
+}
+.t13HierarchicalMenu .t13Current {
+	
+}
+th.t13ReportHeader {
+	padding: 2px 8px; color: rgb(255, 255, 255); text-transform: capitalize; letter-spacing: 1px; font-size: 11px; font-weight: bold; border-collapse: collapse; empty-cells: show; background-color: rgb(123, 156, 189);
+}
+th.t13ReportHeader a:link {
+	color: rgb(255, 255, 255); text-transform: capitalize; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+th.t13ReportHeader a:visited {
+	color: rgb(255, 255, 255); text-transform: capitalize; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+td.t13data {
+	padding: 2px 8px; border-collapse: collapse; empty-cells: show;
+}
+td.t13dataalt {
+	padding: 2px 8px; border-collapse: collapse; empty-cells: show;
+}
+table.t13Standard {
+	border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+table.t13Standard tfoot tr td {
+	border: 0px currentColor; border-image: none; background-color: rgb(239, 239, 239);
+}
+table.t13Standard tfoot {
+	border: 0px currentColor; border-image: none; background-color: rgb(239, 239, 239);
+}
+table.t13Standard tfoot tr {
+	border: 0px currentColor; border-image: none; background-color: rgb(239, 239, 239);
+}
+table.t13Standard th.t13ReportHeader {
+	border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table.t13Standard td.t13data {
+	background: rgb(239, 239, 239); padding: 3px 9px; font-size: 8pt; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; empty-cells: show;
+}
+table.t13Standard td.t13dataalt {
+	background: rgb(255, 255, 255); padding: 3px 9px; font-size: 8pt; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; empty-cells: show;
+}
+.t13Borderless {
+	border-collapse: collapse; empty-cells: show;
+}
+.t13Borderless th.t13ReportHeader {
+	border-width: medium 2px medium medium; border-style: none solid none none; border-color: currentColor rgb(255, 255, 255) currentColor currentColor; border-image: none;
+}
+.t13Borderless td.t13data {
+	border: currentColor; border-image: none;
+}
+.t13HorizontalBorder {
+	border-collapse: collapse; empty-cells: show;
+}
+.t13HorizontalBorder th.t13ReportHeader {
+	border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.t13HorizontalBorder td.t13data {
+	border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.t13StandardAlternatingRowColors {
+	border-left-color: rgb(170, 170, 170); border-left-width: 1px; border-left-style: solid; border-collapse: collapse; empty-cells: show;
+}
+.t13StandardAlternatingRowColors th.t13ReportHeader {
+	border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(170, 170, 170) rgb(170, 170, 170) rgb(170, 170, 170) currentColor; border-image: none;
+}
+.t13StandardAlternatingRowColors td.t13data {
+	border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentColor rgb(170, 170, 170) rgb(170, 170, 170) currentColor; border-image: none;
+}
+.t13StandardAlternatingRowColors td.t13dataalt {
+	border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentColor rgb(170, 170, 170) rgb(170, 170, 170) currentColor; padding: 2px; border-image: none; background-color: rgb(238, 238, 238);
+}
+.t13ValueAttributePairs {
+	border-collapse: collapse; empty-cells: show;
+}
+.t13ValueAttributePairs th.t13ReportHeader {
+	border-width: 1px medium medium 1px; border-style: solid none none solid; border-color: rgb(170, 170, 170) currentColor currentColor rgb(170, 170, 170); border-image: none; text-align: left;
+}
+.t13ValueAttributePairs td.t13data {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(170, 170, 170) rgb(170, 170, 170) currentColor; border-image: none;
+}
+.t13ValueAttributePairs td.t13seperate {
+	border-top-color: rgb(170, 170, 170); border-top-width: 1px; border-top-style: solid;
+}
+.t13ValueAttributePairs td.t13seperate hr {
+	height: 2px; color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.t13OneColumnUnorderedList {
+	
+}
+.t13RegionHeader {
+	color: rgb(255, 255, 255); font-size: 14px; background-color: rgb(123, 156, 189);
+}
+.t13RegionTitle {
+	padding: 2px; text-align: left;
+}
+.t13RegionButtons {
+	padding: 2px; text-align: right;
+}
+.t13RegionBody {
+	padding: 5px; font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px; background-color: rgb(238, 238, 238);
+}
+.t13BorderlessRegion {
+	margin: 10px 0px;
+}
+.t13BorderlessRegion .t13RegionTitle {
+	border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(170, 170, 170) currentColor rgb(170, 170, 170) rgb(170, 170, 170); border-image: none;
+}
+.t13BorderlessRegion .t13RegionButtons {
+	border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(170, 170, 170) rgb(170, 170, 170) rgb(170, 170, 170) currentColor; border-image: none;
+}
+.t13BorderlessRegion .t13RegionBody {
+	background: none;
+}
+.t13BracketedRegion {
+	margin: 10px 0px;
+}
+.t13BracketedRegion .t13RegionTitle {
+	
+}
+.t13BracketedRegion .t13RegionBody {
+	background: none; border-top-color: rgb(170, 170, 170); border-bottom-color: rgb(170, 170, 170); border-top-width: 3px; border-bottom-width: 3px; border-top-style: solid; border-bottom-style: solid;
+}
+.t13BracketedRegion .t13bracket {
+	width: 3px; height: 10px; background-color: rgb(170, 170, 170);
+}
+.t13ButtonRegionwithTitle {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+.t13ButtonRegionwithoutTitle {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+.t13ListRegionwithIcon {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+.t13ListRegionwithIcon .t13RegionBody td {
+	padding: 0px 0px 0px 10px;
+}
+.t13ChartRegion {
+	margin: 10px 0px;
+}
+.t13ChartRegion .t13RegionHeader {
+	background: none; color: rgb(119, 119, 119); font-size: 14px; vertical-align: bottom;
+}
+.t13ChartRegion th {
+	border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.t13ChartRegion .t13RegionBody {
+	background: none;
+}
+.t13FormRegion {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+.t13FormRegion .t13RegionBody {
+	padding: 5px; font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px; background-color: rgb(238, 238, 238);
+}
+.t13NavigationRegion {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none; width: 200px;
+}
+.t13NavigationRegion .t13RegionBody {
+	
+}
+.t13NavigationRegionAlternative1 {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none; width: 200px;
+}
+.t13NavigationRegionAlternative1 .t13RegionBody {
+	
+}
+.t13RegionWithoutButtonTitle {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+.t13RegionWithoutTitle {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none;
+}
+.t13ReportRegion {
+	margin: 10px 0px;
+}
+.t13ReportRegion .t13RegionHeader {
+	background: none; color: rgb(119, 119, 119); vertical-align: bottom;
+}
+.t13ReportRegion .t13RegionTitle {
+	text-align: left; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.t13ReportRegion .t13RegionButtons {
+	text-align: right; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.t13ReportRegion .t13RegionBody {
+	background: none;
+}
+.t13ReportRegionAlt1 .t13RegionHeader {
+	background: none; color: rgb(119, 119, 119); vertical-align: bottom;
+}
+.t13ReportRegionAlt1 .t13RegionTitle {
+	text-align: left;
+}
+.t13ReportRegionAlt1 .t13RegionButtons {
+	text-align: right;
+}
+.t13ReportRegionAlt1 .t13RegionBody {
+	background: none;
+}
+.t13SidebarAlt1 {
+	margin: 0px 0px 10px; width: 200px; table-layout: fixed;
+}
+.t13SidebarAlt1 thead tr th {
+	font-size: 12px; background-color: rgb(221, 221, 221);
+}
+.t13SidebarAlt1 thead tr th.L {
+	background-position: left top; width: 10px; background-image: url("left_curve.gif"); background-repeat: no-repeat;
+}
+.t13SidebarAlt1 thead tr th.C {
+	text-align: center;
+}
+.t13SidebarAlt1 thead tr th.R {
+	background-position: right top; width: 10px; background-image: url("right_curve.gif"); background-repeat: no-repeat;
+}
+.t13SidebarAlt1 tbody tr td.B {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(221, 221, 221) rgb(221, 221, 221); padding: 6px; border-image: none; font-size: 12px; background-color: rgb(255, 255, 255);
+}
+.t13Sidebar {
+	margin: 0px 0px 10px; width: 200px; table-layout: fixed;
+}
+.t13Sidebar th {
+	background-color: rgb(170, 170, 170);
+}
+.t13Sidebar th.L {
+	background-position: left top; width: 10px; vertical-align: top; background-image: url("left_curve.gif"); background-repeat: no-repeat;
+}
+.t13Sidebar th.C {
+	text-align: center; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold;
+}
+.t13Sidebar th.R {
+	background-position: right top; width: 10px; vertical-align: top; background-image: url("right_curve.gif"); background-repeat: no-repeat;
+}
+.t13Sidebar td.B {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(170, 170, 170) rgb(170, 170, 170); padding: 6px; border-image: none; font-size: 12px; background-color: rgb(239, 239, 239);
+}
+table.t13WizardRegion {
+	margin: 10px 0px; border: 1px solid rgb(170, 170, 170); border-image: none; width: 600px;
+}
+table.t13WizardRegion tbody.Success td.t13RegionBody {
+	background-position: 5px 5px; padding-left: 45px; background-image: url("success_w.gif"); background-repeat: no-repeat;
+}
+table.t13WizardRegion tbody.Fail td.t13RegionBody {
+	background-position: 5px 5px; padding-left: 45px; background-image: url("fail.gif"); background-repeat: no-repeat;
+}
+table.t13WizardRegion tbody.Confirm td.t13RegionBody {
+	background-position: 5px 5px; padding-left: 45px; background-image: url("confirmicon_pagetitle.gif"); background-repeat: no-repeat;
+}
+table.t13WizardRegion tbody.Warning td.t13RegionBody {
+	background-position: 5px 5px; padding-left: 45px; background-image: url("warningicon_pagetitle.gif"); background-repeat: no-repeat;
+}
+.t13CalendarHolder {
+	margin: 0px 0px 15px; width: 100%;
+}
+.t13CalendarHolder td {
+	padding: 3px;
+}
+.t13CalendarHolder .t13MonthTitle {
+	padding: 5px; text-align: center; color: rgb(102, 102, 102); font-size: 16px; font-weight: bold;
+}
+.t13Calendar {
+	border: 1px solid rgb(153, 153, 153); border-image: none; width: 100%; background-color: rgb(221, 221, 221);
+}
+.t13Calendar .t13DayOfWeek {
+	padding: 3px; font-size: 12px;
+}
+.t13Calendar td {
+	border-width: 1px; border-style: solid; border-color: rgb(170, 170, 170) rgb(255, 255, 255) rgb(255, 255, 255) rgb(170, 170, 170); padding: 2px; width: 14%; height: 75px; vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.t13Calendar .t13DayTitle {
+	text-align: right; font-size: 12px; font-weight: bold;
+}
+.t13Calendar .t13Day {
+	vertical-align: top;
+}
+.t13Calendar .t13NonDayTitle {
+	text-align: right; color: rgb(238, 238, 238); font-size: 12px; font-weight: bold;
+}
+.t13Calendar .t13NonDay {
+	background-color: rgb(239, 239, 239);
+}
+.t13Calendar .t13WeekendDayTitle {
+	text-align: right; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; background-color: rgb(204, 204, 204);
+}
+.t13Calendar .t13WeekendDay {
+	background-color: rgb(204, 204, 204);
+}
+.t13Calendar .t13Today {
+	border-width: 1px; border-style: solid; border-color: rgb(170, 170, 170) rgb(255, 255, 255) rgb(255, 255, 255) rgb(170, 170, 170); background-color: rgb(253, 249, 206);
+}
+.t13Calendar .t13Today .t13DayTitle {
+	text-align: right; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold;
+}
+.t13WeekCalendarHolder {
+	margin: 0px 0px 15px; width: 100%;
+}
+.t13WeekCalendarHolder td {
+	padding: 3px;
+}
+.t13WeekCalendarHolder .t13MonthTitle {
+	padding: 5px; text-align: center; color: rgb(102, 102, 102); font-size: 16px; font-weight: bold;
+}
+.t13WeekCalendar {
+	border: 1px solid rgb(153, 153, 153); border-image: none; width: 100%; background-color: rgb(221, 221, 221);
+}
+.t13WeekCalendar .t13DayOfWeek {
+	padding: 3px; font-size: 12px;
+}
+.t13WeekCalendar td {
+	border-width: 1px; border-style: solid; border-color: rgb(170, 170, 170) rgb(255, 255, 255) rgb(255, 255, 255) rgb(170, 170, 170); padding: 2px; width: 12%; height: 35px; vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.t13WeekCalendar .t13DayTitle {
+	text-align: right; font-size: 12px; font-weight: bold;
+}
+.t13WeekCalendar .t13Day {
+	vertical-align: top;
+}
+.t13WeekCalendar .t13NonDayTitle {
+	text-align: right; color: rgb(238, 238, 238); font-size: 12px; font-weight: bold;
+}
+.t13WeekCalendar .t13NonDay {
+	background-color: rgb(204, 204, 204);
+}
+.t13WeekCalendar .t13Today {
+	border-width: 1px; border-style: solid; border-color: rgb(170, 170, 170) rgb(255, 255, 255) rgb(255, 255, 255) rgb(170, 170, 170); background-color: rgb(253, 249, 206);
+}
+.t13WeekCalendar .t13Today .t13DayTitle {
+	text-align: right; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold;
+}
+.t13WeekCalendar .t13Hour {
+	padding: 3px; width: 10%; height: 25px; font-size: 12px;
+}
+.t13WeekCalendar .t13HourTitle {
+	
+}
+.t13DayCalendarHolder {
+	margin: 0px 0px 15px; width: 100%;
+}
+.t13DayCalendarHolder td {
+	padding: 3px;
+}
+.t13DayCalendarHolder .t13MonthTitle {
+	padding: 5px; text-align: center; color: rgb(102, 102, 102); font-size: 16px; font-weight: bold;
+}
+.t13DayCalendar {
+	border: 1px solid rgb(153, 153, 153); border-image: none; width: 100%; background-color: rgb(221, 221, 221);
+}
+.t13DayCalendar .t13DayOfWeek {
+	padding: 3px; width: 95%; font-size: 12px;
+}
+.t13DayCalendar td {
+	border-width: 1px; border-style: solid; border-color: rgb(170, 170, 170) rgb(255, 255, 255) rgb(255, 255, 255) rgb(170, 170, 170); padding: 2px; width: 95%; height: 35px; vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.t13DayCalendar .t13DayTitle {
+	text-align: right; font-size: 12px; font-weight: bold;
+}
+.t13DayCalendar .t13Day {
+	vertical-align: top;
+}
+.t13DayCalendar .t13Today {
+	border-width: 1px; border-style: solid; border-color: rgb(170, 170, 170) rgb(255, 255, 255) rgb(255, 255, 255) rgb(170, 170, 170); background-color: rgb(253, 249, 206);
+}
+.t13DayCalendar .t13Today .t13DayTitle {
+	text-align: right; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold;
+}
+.t13DayCalendar .t13Hour {
+	padding: 3px; width: 15%; height: 35px; font-size: 12px;
+}
+.t13DayCalendar .t13HourTitle {
+	
+}
+.t13CalendarAlternative1Holder {
+	
+}
+.t13CalendarAlternative1Holder .t13MonthTitle {
+	text-align: center; color: rgb(98, 124, 150); font-size: 20px; font-weight: bold;
+}
+.t13CalendarAlternative1 {
+	border-top-color: rgb(128, 128, 128); border-left-color: rgb(128, 128, 128); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.t13CalendarAlternative1 .t13DayOfWeek {
+	padding: 3px; color: rgb(255, 255, 255); border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(123, 156, 189);
+}
+.t13CalendarAlternative1 td {
+	padding: 3px; width: 100px; height: 100px; border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.t13CalendarAlternative1 .t13DayTitle {
+	text-align: right; clear: both; font-weight: bold; margin-right: 5px; float: left;
+}
+.t13CalendarAlternative1 .t13Day {
+	vertical-align: top;
+}
+.t13CalendarAlternative1 .t13NonDayTitle {
+	text-align: right; color: rgb(255, 255, 255); clear: both; font-weight: bold; margin-right: 5px; float: left;
+}
+.t13CalendarAlternative1 .t13NonDay {
+	
+}
+.t13CalendarAlternative1 .t13WeekendDayTitle {
+	text-align: right; color: rgb(128, 128, 128); clear: both; font-weight: bold; margin-right: 5px; float: left;
+}
+.t13CalendarAlternative1 .t13WeekendDay {
+	
+}
+.t13CalendarAlternative1 .t13Today {
+	vertical-align: top; background-color: rgb(253, 249, 206);
+}
+.t13WeekCalendarAlternative1Holder {
+	
+}
+.t13WeekCalendarAlternative1Holder .t13MonthTitle {
+	text-align: center; color: rgb(98, 124, 150); font-size: 20px; font-weight: bold;
+}
+.t13WeekCalendarAlternative1 {
+	border-top-color: rgb(128, 128, 128); border-left-color: rgb(128, 128, 128); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.t13WeekCalendarAlternative1 .t13DayOfWeek {
+	padding: 3px; color: rgb(255, 255, 255); border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(123, 156, 189);
+}
+.t13WeekCalendarAlternative1 td {
+	padding: 3px; width: 95px; height: 50px; border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.t13WeekCalendarAlternative1 .t13DayTitle {
+	text-align: right; font-weight: bold; margin-right: 5px; float: left;
+}
+.t13WeekCalendarAlternative1 .t13Day {
+	vertical-align: top;
+}
+.t13WeekCalendarAlternative1 .t13NonDayTitle {
+	text-align: right; color: rgb(255, 255, 255); font-weight: bold; margin-right: 5px; float: left;
+}
+.t13WeekCalendarAlternative1 .t13NonDay {
+	background-color: rgb(246, 246, 246);
+}
+.t13WeekCalendarAlternative1 .t13WeekendDayTitle {
+	text-align: right; color: rgb(128, 128, 128); font-weight: bold; margin-right: 5px; float: left;
+}
+.t13WeekCalendarAlternative1 .t13WeekendDay {
+	
+}
+.t13WeekCalendarAlternative1 .t13Today {
+	vertical-align: top; background-color: rgb(253, 249, 206);
+}
+.t13WeekCalendarAlternative1 .t13Hour {
+	padding: 3px; width: 25px; color: rgb(255, 255, 255); border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(123, 156, 189);
+}
+.t13WeekCalendarAlternative1 .t13HourTitle {
+	
+}
+.t13DayCalendarAlternative1Holder {
+	
+}
+.t13DayCalendarAlternative1Holder .t13MonthTitle {
+	text-align: center; color: rgb(98, 124, 150); font-size: 20px; font-weight: bold;
+}
+.t13DayCalendarAlternative1 {
+	border-top-color: rgb(128, 128, 128); border-left-color: rgb(128, 128, 128); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.t13DayCalendarAlternative1 .t13DayOfWeek {
+	padding: 3px; color: rgb(255, 255, 255); border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(123, 156, 189);
+}
+.t13DayCalendarAlternative1 td {
+	padding: 3px; width: 665px; height: 50px; border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.t13DayCalendarAlternative1 .t13DayTitle {
+	text-align: right; font-weight: bold; margin-right: 5px; float: left;
+}
+.t13DayCalendarAlternative1 .t13Day {
+	vertical-align: top;
+}
+.t13DayCalendarAlternative1 .t13Today {
+	vertical-align: top; background-color: rgb(253, 249, 206);
+}
+.t13DayCalendarAlternative1 .t13Hour {
+	padding: 3px; width: 25px; color: rgb(255, 255, 255); border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(123, 156, 189);
+}
+.t13DayCalendarAlternative1 .t13HourTitle {
+	
+}
+.t13SmallCalenderHolder {
+	border-top-color: rgb(128, 128, 128); border-left-color: rgb(128, 128, 128); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.t13SmallCalenderHolder .t13MonthTitle {
+	padding: 2px; text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.t13SmallCalender .t13DayTitle {
+	background-color: rgb(255, 255, 255);
+}
+.t13SmallCalender td {
+	width: 40px; height: 40px; border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.t13SmallCalender .t13Day {
+	vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.t13SmallCalender .t13DayOfWeek {
+	background-color: rgb(255, 255, 255);
+}
+.t13SmallCalender .t13NonDayTitle {
+	color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);
+}
+.t13SmallCalender .t13NonDay {
+	
+}
+.t13SmallCalender .t13WeekendDayTitle {
+	color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.t13SmallCalender .t13WeekendDay {
+	background-color: rgb(238, 238, 238);
+}
+.t13SmallCalender .t13Today {
+	background-color: rgb(253, 249, 206);
+}
+.t13SmallCalender .t13Today .t13DayTitle {
+	color: rgb(0, 0, 0); vertical-align: top; background-color: rgb(253, 249, 206);
+}
+.t13SmallWeekCalendarHolder {
+	border-top-color: rgb(128, 128, 128); border-left-color: rgb(128, 128, 128); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.t13SmallWeekCalendarHolder .t13MonthTitle {
+	padding: 2px; text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.t13SmallWeekCalendar .t13DayTitle {
+	background-color: rgb(255, 255, 255);
+}
+.t13SmallWeekCalendar td {
+	width: 40px; height: 20px; border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.t13SmallWeekCalendar .t13Day {
+	vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.t13SmallWeekCalendar .t13DayOfWeek {
+	color: rgb(255, 255, 255); font-size: 10px; font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.t13SmallWeekCalendar .t13NonDayTitle {
+	color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);
+}
+.t13SmallWeekCalendar .t13NonDay {
+	color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.t13SmallWeekCalendar .t13Today {
+	background-color: rgb(253, 249, 206);
+}
+.t13SmallWeekCalendar .t13Today .t13DayTitle {
+	color: rgb(0, 0, 0); vertical-align: top; background-color: rgb(253, 249, 206);
+}
+.t13SmallWeekCalendar .t13Hour {
+	width: 30px; color: rgb(255, 255, 255); font-size: 10px; font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.t13SmallDayCalendarHolder {
+	border-top-color: rgb(128, 128, 128); border-left-color: rgb(128, 128, 128); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.t13SmallDayCalendarHolder .t13MonthTitle {
+	padding: 2px; text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.t13SmallDayCalendar .t13DayTitle {
+	background-color: rgb(255, 255, 255);
+}
+.t13SmallDayCalendar td {
+	width: 280px; height: 20px; border-right-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.t13SmallDayCalendar .t13Day {
+	vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.t13SmallDayCalendar .t13DayOfWeek {
+	color: rgb(255, 255, 255); font-size: 10px; font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.t13SmallDayCalendar .t13NonDayTitle {
+	color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);
+}
+.t13SmallDayCalendar .t13NonDay {
+	color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.t13SmallDayCalendar .t13Today {
+	background-color: rgb(253, 249, 206);
+}
+.t13SmallDayCalendar .t13Today .t13DayTitle {
+	color: rgb(0, 0, 0); vertical-align: top; background-color: rgb(253, 249, 206);
+}
+.t13SmallDayCalendar .t13Hour {
+	width: 30px; color: rgb(255, 255, 255); font-size: 10px; font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.ListCalendarHolder {
+	width: 600px; border-collapse: collapse;
+}
+.ListCalendarHolder .ListCalendar {
+	border: 1px solid rgb(102, 102, 102); width: 600px; border-collapse: collapse;
+}
+.ListCalendarHolder .MonthTitle {
+	padding: 5px; text-align: center; color: rgb(102, 102, 102); font-size: 16px; font-weight: bold;
+}
+.ListCalendarHolder .PastDayTitle {
+	margin: 0px; border: 0px solid rgb(170, 170, 170); text-align: center; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(221, 221, 221);
+}
+.ListCalendarHolder .PastDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(170, 170, 170); margin: 0px; padding: 4px; height: 50px; text-align: left; color: rgb(0, 0, 0); background-color: rgb(238, 238, 238); v-align: top;
+}
+.ListCalendarHolder .PastHourTitle {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(170, 170, 170); margin: 0px; text-align: center; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(221, 221, 221);
+}
+.ListCalendarHolder .PastHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(170, 170, 170); margin: 0px; padding: 4px; width: 30px; height: 50px; color: rgb(0, 0, 0); font-weight: bold; white-space: nowrap; background-color: rgb(238, 238, 238); v-align: center;
+}
+.ListCalendarHolder .FutureDayTitle {
+	margin: 0px; border: 0px solid rgb(170, 170, 170); text-align: center; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(221, 221, 221);
+}
+.ListCalendarHolder .FutureDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(170, 170, 170); margin: 0px; padding: 4px; height: 50px; text-align: left; background-color: rgb(255, 255, 255); v-align: top;
+}
+.ListCalendarHolder .FutureHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(170, 170, 170); margin: 0px; padding: 4px; width: 30px; height: 50px; color: rgb(0, 0, 0); font-weight: bold; white-space: nowrap; background-color: rgb(255, 255, 255); v-align: center;
+}
+.ListCalendarHolder .FutureHourTitle {
+	margin: 0px; border: 0px solid rgb(170, 170, 170); text-align: center; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(221, 221, 221);
+}
+.ListCalendarHolder .ToDayTitle {
+	margin: 0px; border: 0px solid rgb(170, 170, 170); text-align: center; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(221, 221, 221);
+}
+.ListCalendarHolder .ToDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(170, 170, 170); margin: 0px; padding: 4px; height: 50px; text-align: left; color: rgb(0, 0, 0); background-color: rgb(253, 249, 206); v-align: top;
+}
+.ListCalendarHolder .TodayHourTitle {
+	margin: 0px; border: 0px solid rgb(170, 170, 170); text-align: center; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(221, 221, 221);
+}
+.ListCalendarHolder .TodayHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(170, 170, 170); margin: 0px; padding: 4px; width: 30px; height: 50px; color: rgb(0, 0, 0); font-weight: bold; white-space: nowrap; background-color: rgb(253, 249, 206); v-align: center;
+}
+.ListCalendarAlternateHolder {
+	width: 700px; border-collapse: collapse;
+}
+.ListCalendarAlternateHolder .ListCalendarAlternate {
+	border: 1px solid rgb(102, 102, 102); width: 100%; border-collapse: collapse;
+}
+.ListCalendarAlternateHolder .MonthTitle {
+	text-align: center; color: rgb(98, 124, 150); font-size: 20px; font-weight: bold;
+}
+.ListCalendarAlternateHolder .PastDayTitle {
+	margin: 0px; border: 0px solid rgb(128, 128, 128); text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(123, 156, 189);
+}
+.ListCalendarAlternateHolder .PastDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); margin: 0px; padding: 4px; height: 50px; text-align: left; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); v-align: top;
+}
+.ListCalendarAlternateHolder .PastHourTitle {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); margin: 0px; text-align: center; font-weight: bold; background-color: rgb(123, 156, 189);
+}
+.ListCalendarAlternateHolder .PastHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); margin: 0px; padding: 4px; width: 30px; height: 50px; color: rgb(0, 0, 0); font-weight: bold; white-space: nowrap; background-color: rgb(255, 255, 255); v-align: center;
+}
+.ListCalendarAlternateHolder .FutureDayTitle {
+	margin: 0px; border: 0px solid rgb(128, 128, 128); text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(123, 156, 189);
+}
+.ListCalendarAlternateHolder .FutureDay {
+	border-width: 1px 0px 0px; border-color: rgb(128, 128, 128); margin: 0px; padding: 4px; height: 50px; text-align: left; color: rgb(0, 0, 0); background-color: rgb(246, 246, 246); v-align: top;
+}
+.ListCalendarAlternateHolder .FutureHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); margin: 0px; padding: 4px; width: 30px; height: 50px; color: rgb(0, 0, 0); font-weight: bold; white-space: nowrap; background-color: rgb(246, 246, 246); v-align: center;
+}
+.ListCalendarAlternateHolder .FutureHourTitle {
+	margin: 0px; border: 0px solid rgb(128, 128, 128); text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(123, 156, 189);
+}
+.ListCalendarAlternateHolder .ToDayTitle {
+	margin: 0px; border: 0px solid rgb(128, 128, 128); text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(123, 156, 189);
+}
+.ListCalendarAlternateHolder .ToDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); margin: 0px; padding: 4px; height: 50px; text-align: left; color: rgb(0, 0, 0); background-color: rgb(253, 249, 206); v-align: top;
+}
+.ListCalendarAlternateHolder .TodayHourTitle {
+	margin: 0px; border: 0px solid rgb(128, 128, 128); text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(123, 156, 189);
+}
+.ListCalendarAlternateHolder .TodayHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); margin: 0px; padding: 4px; width: 30px; height: 50px; color: rgb(0, 0, 0); font-weight: bold; white-space: nowrap; background-color: rgb(253, 249, 206); v-align: center;
+}
+.ListCalendarSmallHolder {
+	width: 310px; border-collapse: collapse;
+}
+.ListCalendarSmallHolder .ListCalendarSmall {
+	border: 1px solid rgb(102, 102, 102); width: 310px; border-collapse: collapse;
+}
+.ListCalendarSmallHolder .MonthTitle {
+	padding: 2px; text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.ListCalendarSmallHolder .PastDayTitle {
+	font: bold 10px/14px Arial, sans-serif; margin: 0px; border: 0px solid rgb(128, 128, 128); width: 280px; text-align: center; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; background-color: rgb(98, 124, 150);
+}
+.ListCalendarSmallHolder .PastDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); font: 10px/14px Arial, sans-serif; margin: 0px; padding: 4px; width: 270px; height: 25px; text-align: left; color: rgb(92, 0, 0); font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); v-align: top;
+}
+.ListCalendarSmallHolder .PastHourTitle {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); margin: 0px; text-align: center; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(98, 124, 150);
+}
+.ListCalendarSmallHolder .PastHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); font: bold 10px/14px Arial, sans-serif; margin: 0px; padding: 4px; width: 30px; height: 25px; color: rgb(0, 0, 0); white-space: nowrap; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); v-align: center;
+}
+.ListCalendarSmallHolder .FutureDayTitle {
+	font: bold 10px/14px Arial, sans-serif; margin: 0px; border: 0px solid rgb(128, 128, 128); width: 270px; text-align: center; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; background-color: rgb(98, 124, 150);
+}
+.ListCalendarSmallHolder .FutureDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); font: 10px/14px Arial, sans-serif; margin: 0px; padding: 4px; width: 270px; height: 25px; text-align: left; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal; background-color: rgb(238, 238, 238); v-align: top;
+}
+.ListCalendarSmallHolder .FutureHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); font: bold 10px/14px Arial, sans-serif; margin: 0px; padding: 4px; width: 30px; height: 25px; color: rgb(0, 0, 0); white-space: nowrap; font-size-adjust: none; font-stretch: normal; background-color: rgb(238, 238, 238); v-align: center;
+}
+.ListCalendarSmallHolder .FutureHourTitle {
+	font: bold 10px/14px Arial, sans-serif; margin: 0px; border: 0px solid rgb(128, 128, 128); text-align: center; font-size-adjust: none; font-stretch: normal; background-color: rgb(98, 124, 150);
+}
+.ListCalendarSmallHolder .ToDayTitle {
+	font: bold 10px/14px Arial, sans-serif; margin: 0px; border: 0px solid rgb(128, 128, 128); width: 270px; text-align: center; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; background-color: rgb(98, 124, 150);
+}
+.ListCalendarSmallHolder .ToDay {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); font: 10px/14px Arial, sans-serif; margin: 0px; padding: 4px; width: 270px; height: 25px; text-align: left; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal; background-color: rgb(253, 249, 206); v-align: top;
+}
+.ListCalendarSmallHolder .TodayHourTitle {
+	font: bold 10px/14px Arial, sans-serif; margin: 0px; border: 0px solid rgb(128, 128, 128); text-align: center; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; background-color: rgb(98, 124, 150);
+}
+.ListCalendarSmallHolder .TodayHour {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(128, 128, 128); font: bold 10px/14px Arial, sans-serif; margin: 0px; padding: 4px; width: 30px; height: 25px; color: rgb(0, 0, 0); white-space: nowrap; font-size-adjust: none; font-stretch: normal; background-color: rgb(253, 249, 206); v-align: center;
+}
+.apex_cal_data_grid_src {
+	width: 96%; margin-top: 2px;
+}
+div.dhtmlMenuLG {
+	clear: both; white-space: nowrap;
+}
+div.dhtmlMenuLG div.dhtmlMenuItem {
+	margin: 0px 15px 0px 0px; text-align: center; float: left;
+}
+div.dhtmlMenuLG a.dhtmlBottom {
+	margin: 0px 5px; font-size: 12px; font-weight: bold; text-decoration: none; display: block;
+}
+div.dhtmlMenuLG img.dhtmlMenu {
+	
+}
+div.dhtmlMenuLG div.htmldbBKHolder {
+	float: left;
+}
+div.dhtmlMenuLG img.dhtmlMenuOn {
+	
+}
+ul.dhtmlTree {
+	list-style: none;
+}
+ul.dhtmlTree li {
+	padding: 2px 0px; vertical-align: middle;
+}
+ul.dhtmlTree li img {
+	margin: 0px 4px; vertical-align: middle;
+}
+.dhtmlSubMenu {
+	margin: 0em; border: 1px solid rgb(183, 183, 183); border-image: none; width: 200px; padding-left: 0em; font-size: 11px; list-style-type: none; background-color: rgb(255, 255, 255);
+}
+.dhtmlSubMenu li {
+	margin: 0em; padding-left: 0em;
+}
+.dhtmlMenuSep {
+	text-align: center;
+}
+img.dhtmlMenuSep {
+	margin: auto; border: 1px solid rgb(239, 239, 239); border-image: none; width: 80%; height: 1px; display: block; background-color: rgb(204, 204, 204);
+}
+.dhtmlSubMenu img.dhtmlSep {
+	width: 180px; height: 1px;
+}
+.dhtmlSubMenu .htmldbMIMG {
+	vertical-align: middle; float: right;
+}
+.dhtmlSubMenu .dhtmlSubMenuP {
+	margin: 1px; padding: 0px 8px; text-align: center; color: rgb(128, 128, 128); font-weight: bold; text-decoration: none; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap;
+}
+.dhtmlSubMenu a.dhtmlSubMenuN {
+	margin: 1px; padding: 3px 8px; border: 1px solid rgb(239, 239, 239); border-image: none; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+.dhtmlSubMenu a.dhtmlSubMenuN:hover {
+	margin: 1px; padding: 3px 8px; border: 1px solid black; border-image: none; color: rgb(0, 0, 0); background-color: rgb(221, 221, 221);
+}
+.dhtmlSubMenu a.dhtmlSubMenuS {
+	margin: 1px; padding: 3px 8px; border: 1px solid rgb(239, 239, 239); border-image: none; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+.dhtmlSubMenu a.dhtmlSubMenuS:hover {
+	margin: 1px; padding: 3px 8px; border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0); font-weight: normal; display: block; background-color: rgb(221, 221, 221);
+}
+.dhtmlMenuLG2 li a {
+	float: left;
+}
+.dhtmlMenuLG2 {
+	margin: 0px; padding: 0px; vertical-align: middle; list-style-type: none; white-space: nowrap;
+}
+.dhtmlMenuLG2 * {
+	height: 25px; line-height: 25px; text-decoration: none; vertical-align: middle; float: left; display: block; white-space: nowrap;
+}
+.dhtmlMenuLG2 li {
+	background-image: url("../menu_small_m.gif");
+}
+.dhtmlMenuLG2 li.dhtmlMenuItem {
+	margin: 0px 4px 0px 0px;
+}
+.dhtmlMenuLG2 li.dhtmlMenuItem a {
+	padding: 0px 2px; color: rgb(0, 0, 0);
+}
+.dhtmlMenuLG2 li.dhtmlMenuItem1 {
+	margin: 0px 4px 0px 0px;
+}
+.dhtmlMenuLG2 li.dhtmlMenuItem1 a {
+	margin: 0px 4px 0px 0px; padding: 0px 2px; color: rgb(0, 0, 0);
+}
+.dhtmlMenuLG2 li.dhtmlMenuItem1 img {
+	margin: 0px 4px 0px 0px;
+}
+.dhtmlSubMenu2 {
+	margin: 0em; border: 1px solid rgb(183, 183, 183); border-image: none; width: 200px; padding-left: 0em; font-size: 11px; list-style-type: none; background-color: rgb(255, 255, 255);
+}
+.dhtmlSubMenu2 li {
+	margin: 0em; padding-left: 0em;
+}
+.dhtmlMenuSep2 {
+	text-align: center;
+}
+img.dhtmlMenuSep2 {
+	margin: auto; border: 1px solid rgb(239, 239, 239); border-image: none; width: 80%; height: 1px; display: block; background-color: rgb(204, 204, 204);
+}
+.dhtmlSubMenu2 img.dhtmlSep {
+	width: 180px; height: 1px;
+}
+.dhtmlSubMenu2 .t13MIMG {
+	vertical-align: middle; float: right;
+}
+.dhtmlSubMenu2 .dhtmlSubMenuP {
+	padding: 2px 4px; text-align: center; color: rgb(128, 128, 128); font-weight: bold; text-decoration: none; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; background-color: rgb(221, 221, 221);
+}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:link {
+	padding: 2px 4px; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:visited {
+	padding: 2px 4px; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:hover {
+	color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:link {
+	padding: 2px 4px; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:visited {
+	padding: 2px 4px; height: 1%; color: rgb(128, 128, 128); overflow: hidden; font-weight: normal; text-decoration: none; display: block; white-space: nowrap;
+}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:hover {
+	color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.apex-rds-container {
+	margin: 0px 0px 9px; height: 21px;
+}
+ul.apex-rds {
+	margin: 0px; border: 1px solid rgb(170, 170, 170); border-image: none; float: left; list-style-type: none; background-color: rgb(221, 221, 221); -moz-border-radius: 8px; -webkit-border-radius: 8px;
+}
+ul.apex-rds li {
+	list-style: none; float: left;
+}
+ul.apex-rds li span {
+	color: rgb(0, 0, 0); font-size: 11px;
+}
+ul.apex-rds li.apex-rds-selected span {
+	color: rgb(255, 255, 255);
+}
+ul.apex-rds a:hover span {
+	color: rgb(0, 0, 0);
+}
+ul.apex-rds li.apex-rds-last a {
+	padding: 1px 10px 0px; height: 16px; text-decoration: none; border-right-color: rgb(170, 170, 170); border-left-color: rgb(255, 255, 255); border-right-width: 0px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block;
+}
+ul.apex-rds li.apex-rds-first a {
+	padding: 1px 10px 0px; height: 16px; text-decoration: none; border-right-color: rgb(170, 170, 170); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 0px; border-right-style: solid; border-left-style: solid; display: block;
+}
+ul.apex-rds li.apex-rds-last a:hover {
+	-moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 8px;
+}
+ul.apex-rds li.apex-rds-last.apex-rds-selected a {
+	-moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 8px;
+}
+ul.apex-rds li.apex-rds-first a:hover {
+	-moz-border-radius-bottomleft: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -webkit-border-top-left-radius: 8px;
+}
+ul.apex-rds li.apex-rds-first.apex-rds-selected a {
+	-moz-border-radius-bottomleft: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -webkit-border-top-left-radius: 8px;
+}
+ul.apex-rds li a {
+	padding: 1px 10px 0px; height: 16px; text-decoration: none; border-right-color: rgb(170, 170, 170); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left; display: block;
+}
+ul.apex-rds li a:hover {
+	background-color: rgb(65, 112, 160);
+}
+ul.apex-rds li.apex-rds-selected a {
+	background-color: rgb(65, 112, 160);
+}
+ul.apex-rds li a:hover span {
+	color: rgb(255, 255, 255);
+}
+ul.apex-rds li.apex-rds-selected a span {
+	color: rgb(255, 255, 255);
+}
