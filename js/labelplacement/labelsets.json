@@ -1,0 +1,57 @@
+{
+	"0":{
+		"name":"LS_ASP85",
+		"data":[
+			{
+				"image":"ls_asp85/01.png",
+				"comment":"comment for first picture"
+			},
+			{
+				"image":"ls_asp85/02.png",
+				"comment":"comment for second picture",
+				"warning":"Please always apply label upside down :)",
+				"link_url":"http://dummyadress/path/to/file.pdf",
+				"link_text":"GEN - 117 Standard Labelset Specification"
+			},
+			{
+				"image":"ls_asp85/03.png",
+				"comment":"comment for third picture",
+				"link_url":"http://dummyadress/path/to/file.pdf",
+				"link_text":"GEN - 117 Standard Labelset Specification"
+			}
+		]
+	},
+	"1":{
+		"name":"LS_ASP185",
+		"data":[
+			{
+				"image":"ls_asp185/LS_ASP85-AOI-waferframe.png",
+				"comment":"Frame Standard Label (AOI-Label)"
+			},
+			{
+				"image":"ls_asp185/LS_ASP85-LASASP185_TMD49037V-TMD49033V_reel.png",
+				"warning":"Only for TMD49037V and TMD49033V",
+				"comment":"TMD49037V and TMD49033V / Reel"
+			},
+			{
+				"image":"ls_asp185/LS_ASP85-LASASP185_TMD49037V-TMD49033V_mbb.png",
+				"comment":"TMD49037V and TMD49033V / MBB",
+				"warning":"Only for TMD49037V and TMD49033V",
+				"link_url":"http://dummyadress/path/to/file.pdf",
+				"link_text":"GEN - 117 Standard Labelset Specification"
+			},
+			{
+				"image":"ls_asp185/LS_ASP85-LASASP185_TMD49037V-TMD49033V_innercarton.png",
+				"comment":"TMD49037V and TMD49033V / Inner carton",
+				"warning":"Only for TMD49037V and TMD49033V"
+			},
+			{
+				"image":"ls_asp185/LS_ASP85-LASASP185_TMD49037V-TMD49033V_innercarton_front.png",
+				"comment":"TMD49037V and TMD49033V / Inner carton, front",
+				"warning":"Only for TMD49037V and TMD49033V",
+				"link_url":"http://dummyadress/path/to/file.pdf",
+				"link_text":"GEN - 117 Standard Labelset Specification"
+			}
+		]
+	}
+}
